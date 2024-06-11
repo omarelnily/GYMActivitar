@@ -1,0 +1,886 @@
+{
+  "id": "OpsCon",
+  "guid": "6f54d6bf-7b2f-4178-9e89-0608ae707227",
+  "name": "System Operational Concept",
+  "lastId": 45,
+  "createdOn": "2023-12-31T09:00:10.546Z",
+  "createdBy": {
+    "name": "Omar Elnily",
+    "email": "omar.elnily@ejust.edu.eg",
+    "company": ""
+  },
+  "lastChangedOn": "2024-01-03T19:03:51.902Z",
+  "lastChangedBy": {
+    "name": "Omar Elnily",
+    "email": "omar.elnily@ejust.edu.eg",
+    "company": ""
+  },
+  "helpRef": "ISO/IEC/IEEE 29148:2018",
+  "data": [
+    {
+      "id": "1",
+      "guid": "4d6561fe-f54c-4261-9d78-f2f06a794c24",
+      "deleted": true,
+      "heading": "Introduction",
+      "helpRef": "A.1",
+      "history": [
+        {
+          "attributesChanged": {
+            "deleted": null
+          },
+          "changedBy": {
+            "company": "",
+            "email": "omar.elnily@ejust.edu.eg",
+            "name": "Omar Elnily"
+          },
+          "changedOn": "2024-01-03T19:03:51.902Z"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "guid": "19c77358-27cf-46e8-ab24-6aa63d7780d0",
+      "heading": "Scope",
+      "helpRef": "A.2.2.1",
+      "children": [
+        {
+          "id": "3",
+          "guid": "affda0ae-6829-46ca-aa50-101187231018",
+          "heading": "System identification",
+          "text": "<p><em style=\"text-align: left;\">System Information:</em></p><ul style=\"text-align: left;\"><li>Identification number, title, and abbreviation of the Gym Management System.</li><li>Position relative to other OpsCon documents in a hierarchical or network manner.</li></ul>",
+          "helpRef": "A.2.2.2",
+          "history": [
+            {
+              "attributesChanged": {
+                "text": null
+              },
+              "changedBy": {
+                "company": "",
+                "email": "omar.elnily@ejust.edu.eg",
+                "name": "Omar Elnily"
+              },
+              "changedOn": "2023-12-31T15:09:47.617Z"
+            }
+          ]
+        },
+        {
+          "id": "4",
+          "guid": "95c8a243-8ce1-429d-a945-990a5f85ac38",
+          "heading": "Document overview",
+          "text": "<ul style=\"text-align: start;\"><li><em>Purpose and Audience:</em><ul><li>Summary of OpsCon document purposes and motivations.</li><li>Intended audience, including users, acquirers, and suppliers.</li><li>Mention of security or privacy considerations.</li><li>Outline of remaining sections in the OpsCon guide.</li></ul></li></ul>",
+          "helpRef": "A.2.2.3",
+          "history": [
+            {
+              "attributesChanged": {
+                "text": null
+              },
+              "changedBy": {
+                "company": "",
+                "email": "omar.elnily@ejust.edu.eg",
+                "name": "Omar Elnily"
+              },
+              "changedOn": "2023-12-31T15:08:58.952Z"
+            },
+            {
+              "attributesChanged": {
+                "text": "<p><em style=\"text-align: left;\">List of Referenced Documents:</em></p><ul style=\"text-align: left;\"><li>Document number, title, revision, and date.</li><li>Identification of sources for documents not available through normal channels.</li></ul>"
+              },
+              "changedBy": {
+                "company": "",
+                "email": "omar.elnily@ejust.edu.eg",
+                "name": "Omar Elnily"
+              },
+              "changedOn": "2023-12-31T15:09:27.589Z"
+            }
+          ]
+        },
+        {
+          "id": "5",
+          "guid": "8c18b274-4ea3-4ceb-8126-e19f9800db38",
+          "heading": "System overview",
+          "text": "<p><em style=\"text-align: left;\">Proposed System Information:</em></p><ul style=\"text-align: left;\"><li>Purpose and nature of the Gym Management System.</li><li>Project sponsors, user agencies, supplier organizations, and support agencies.</li><li>Identification of operating centers or sites.</li><li>Overview of relevant documents.</li><li>Graphical overview of the system (context diagram or equivalent).</li></ul>",
+          "helpRef": "A.2.2.4",
+          "history": [
+            {
+              "attributesChanged": {
+                "text": null
+              },
+              "changedBy": {
+                "company": "",
+                "email": "omar.elnily@ejust.edu.eg",
+                "name": "Omar Elnily"
+              },
+              "changedOn": "2023-12-31T15:09:15.691Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "guid": "4f3ace80-35ee-48a3-a4f5-7491b7f0636e",
+      "heading": "Current system or situation",
+      "helpRef": "A.2.4.1",
+      "children": [
+        {
+          "id": "7",
+          "guid": "2395c56e-2ebe-4517-b934-9a05be41ffcd",
+          "heading": "Background, objectives and scope",
+          "text": "<p><em style=\"text-align: left;\">Overview of Current System:</em></p><ul style=\"text-align: left;\"><li>Background, mission, objectives, and scope.</li><li>Motivation for the Gym Management System.</li><li>Goals, strategies, solutions, tactics, methods, and techniques.</li><li>Modes of operation, classes of users, and interfaces.</li></ul>",
+          "helpRef": "A.2.4.2",
+          "history": [
+            {
+              "attributesChanged": {
+                "text": null
+              },
+              "changedBy": {
+                "company": "",
+                "email": "omar.elnily@ejust.edu.eg",
+                "name": "Omar Elnily"
+              },
+              "changedOn": "2023-12-31T15:08:37.184Z"
+            }
+          ]
+        },
+        {
+          "id": "8",
+          "guid": "a789ca1b-9969-481a-aa99-2dd4d5c2a8a5",
+          "heading": "Operational policies and constraints",
+          "text": "<ul style=\"text-align: start;\"><li><em>Description of Policies and Constraints:</em><ul><li>Operational policies and constraints applicable to the current system.</li><li>Examples of constraints on hours of operation, personnel, hardware, and facilities.</li></ul></li></ul>",
+          "helpRef": "A.2.4.3",
+          "history": [
+            {
+              "attributesChanged": {
+                "text": null
+              },
+              "changedBy": {
+                "company": "",
+                "email": "omar.elnily@ejust.edu.eg",
+                "name": "Omar Elnily"
+              },
+              "changedOn": "2023-12-31T15:08:30.100Z"
+            }
+          ]
+        },
+        {
+          "id": "9",
+          "guid": "bbf2342c-41c4-40a8-9125-e64d17606fe9",
+          "heading": "Description of the current system or situation",
+          "text": "<ul style=\"text-align: start;\"><li><em>Detailed Description:</em><ul><li>Operational environment characteristics.</li><li>Major system elements and interconnections.</li><li>Interfaces to external systems or procedures.</li><li>Current system capabilities, functions, and features.</li><li>Graphical representations of inputs, outputs, data flows, and processes.</li><li>Cost of system operations, operational risk factors.</li><li>Performance and quality attributes.</li><li>Provisions for safety, security, privacy, integrity, and continuity.</li></ul></li></ul>",
+          "helpRef": "A.2.4.4",
+          "history": [
+            {
+              "attributesChanged": {
+                "text": null
+              },
+              "changedBy": {
+                "company": "",
+                "email": "omar.elnily@ejust.edu.eg",
+                "name": "Omar Elnily"
+              },
+              "changedOn": "2023-12-31T15:08:17.043Z"
+            }
+          ]
+        },
+        {
+          "id": "10",
+          "guid": "9c242aea-cf86-406b-a538-6192d6ae4f92",
+          "heading": "Modes of operation for the current system or situation",
+          "text": "<p style=\"text-align: start;\"><em>Description of System Modes:</em></p><ul style=\"text-align: start;\"><li>Operational, degraded, maintenance, training, emergency, etc.</li><li>Detailed description of each mode and its impact on the system.</li><li>In-depth exploration of processes, procedures, and capabilities in each mode.</li></ul>",
+          "helpRef": "A.2.4.5",
+          "history": [
+            {
+              "attributesChanged": {
+                "text": null
+              },
+              "changedBy": {
+                "company": "",
+                "email": "omar.elnily@ejust.edu.eg",
+                "name": "Omar Elnily"
+              },
+              "changedOn": "2023-12-31T15:17:27.310Z"
+            }
+          ]
+        },
+        {
+          "id": "11",
+          "guid": "e9b41af9-f981-4fb6-a3b2-0c7d9d9bd605",
+          "heading": "User classes and other involved personnel",
+          "text": "<p style=\"text-align: start;\"><em>Inclusive Identification of System Users:</em></p><ul style=\"text-align: start;\"><li>Comprehensive listing of all user classes and additional involved personnel.</li><li>Roles and contributions of each class and individual.</li><li>Consideration of how each user group influences or interacts with the Gym Management System.</li></ul>",
+          "helpRef": "A.2.4.6",
+          "history": [
+            {
+              "attributesChanged": {
+                "text": null
+              },
+              "changedBy": {
+                "company": "",
+                "email": "omar.elnily@ejust.edu.eg",
+                "name": "Omar Elnily"
+              },
+              "changedOn": "2023-12-31T15:19:28.276Z"
+            }
+          ],
+          "children": [
+            {
+              "id": "12",
+              "guid": "d14e6210-3ae4-4708-89dc-211c23d15a85",
+              "heading": "Organizational structure",
+              "text": "<p style=\"text-align: start;\"><em>Description of Organizational Framework:</em></p><ul style=\"text-align: start;\"><li>Overview of the organizational structure related to the Gym Management System.</li><li>Identification of divisions, departments, and roles impacting system implementation.</li><li>Consideration of how the system aligns with and supports organizational goals.</li></ul>",
+              "helpRef": "A.2.4.6.1",
+              "history": [
+                {
+                  "attributesChanged": {
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "omar.elnily@ejust.edu.eg",
+                    "name": "Omar Elnily"
+                  },
+                  "changedOn": "2023-12-31T15:18:53.648Z"
+                }
+              ]
+            },
+            {
+              "id": "13",
+              "guid": "e4afd96b-0496-45ec-a3f4-25b6cd768b3c",
+              "heading": "Profiles of user classes",
+              "text": "<p style=\"text-align: start;\"><em>Detailed Profiles for Each User Class:</em></p><ul style=\"text-align: start;\"><li>In-depth descriptions of characteristics, responsibilities, and expectations for each user class.</li><li>Consideration of user preferences, skill levels, and specific system interactions.</li><li>Development of user personas to guide design decisions.</li></ul>",
+              "helpRef": "A.2.4.6.2",
+              "history": [
+                {
+                  "attributesChanged": {
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "omar.elnily@ejust.edu.eg",
+                    "name": "Omar Elnily"
+                  },
+                  "changedOn": "2023-12-31T15:19:03.867Z"
+                }
+              ]
+            },
+            {
+              "id": "14",
+              "guid": "5623c021-fe0f-47e2-b09a-f1db1ba30cb7",
+              "heading": "Interactions among user classes",
+              "text": "<p style=\"text-align: start;\"><em>Mapping User Interactions:</em></p><ul style=\"text-align: start;\"><li>Visual representation or description of interactions among different user classes.</li><li>Consideration of collaborative processes and shared functionalities.</li><li>Identification of potential conflicts or dependencies in user interactions.</li></ul>",
+              "helpRef": "A.2.4.6.3",
+              "history": [
+                {
+                  "attributesChanged": {
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "omar.elnily@ejust.edu.eg",
+                    "name": "Omar Elnily"
+                  },
+                  "changedOn": "2023-12-31T15:18:43.607Z"
+                }
+              ]
+            },
+            {
+              "id": "15",
+              "guid": "f579ea97-44b6-4c02-bd1d-916bd1d72b80",
+              "heading": "Other involved personnel",
+              "text": "<p style=\"text-align: start;\"><em>Documentation of Additional Personnel:</em></p><ul style=\"text-align: start;\"><li>Identification and roles of personnel beyond user classes.</li><li>Roles and responsibilities of individuals contributing to system development, maintenance, or support.</li></ul>",
+              "helpRef": "A.2.4.6.4",
+              "history": [
+                {
+                  "attributesChanged": {
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "omar.elnily@ejust.edu.eg",
+                    "name": "Omar Elnily"
+                  },
+                  "changedOn": "2023-12-31T15:18:34.848Z"
+                }
+              ]
+            },
+            {
+              "id": "16",
+              "guid": "9ea1c424-3daa-41bb-b7a2-f2848007e2ff",
+              "heading": "Support environment",
+              "text": "<p style=\"text-align: start;\"><em>Environment Necessary for System Support:</em></p><ul style=\"text-align: start;\"><li>Identification of resources and infrastructure required to support system operation.</li><li>Consideration of technical, human, and financial support elements.</li></ul>",
+              "helpRef": "A.2.4.7",
+              "history": [
+                {
+                  "attributesChanged": {
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "omar.elnily@ejust.edu.eg",
+                    "name": "Omar Elnily"
+                  },
+                  "changedOn": "2023-12-31T15:18:29.467Z"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "17",
+      "guid": "832e0639-66f7-4575-94e7-2fe60ef5ea14",
+      "heading": "Justification for and nature of changes",
+      "helpRef": "A.2.5.1",
+      "children": [
+        {
+          "id": "18",
+          "guid": "b1ce95ab-fc5e-45c1-a8c8-ad7e00346fbf",
+          "heading": "Justification for changes",
+          "text": "<p style=\"text-align: start;\"><em>Reasoning Behind Proposed Modifications:</em></p><ul style=\"text-align: start;\"><li>Explanation of why each change is deemed necessary or beneficial.</li><li>Consideration of user feedback, technological advancements, or industry trends.</li><li>Alignment of changes with the overall goals of the Gym Management System.</li></ul>",
+          "helpRef": "A.2.5.2",
+          "history": [
+            {
+              "attributesChanged": {
+                "text": null
+              },
+              "changedBy": {
+                "company": "",
+                "email": "omar.elnily@ejust.edu.eg",
+                "name": "Omar Elnily"
+              },
+              "changedOn": "2023-12-31T15:18:22.329Z"
+            }
+          ]
+        },
+        {
+          "id": "19",
+          "guid": "be93a01e-a840-47f5-b18a-80f238d8ba1b",
+          "heading": "Description of desired changes",
+          "text": "<p style=\"text-align: start;\"><em>Detailed Explanation of Modifications:</em></p><ul style=\"text-align: start;\"><li>Comprehensive list of desired changes in functionality or features.</li><li>Clear and detailed descriptions of each proposed modification.</li><li>Consideration of how changes align with user needs and system objectives.</li></ul>",
+          "helpRef": "A.2.5.3",
+          "history": [
+            {
+              "attributesChanged": {
+                "text": null
+              },
+              "changedBy": {
+                "company": "",
+                "email": "omar.elnily@ejust.edu.eg",
+                "name": "Omar Elnily"
+              },
+              "changedOn": "2023-12-31T15:18:15.356Z"
+            }
+          ]
+        },
+        {
+          "id": "20",
+          "guid": "73e4cdd0-f6c7-4830-ac21-0276f6911ebd",
+          "heading": "Priorities among changes",
+          "text": "<p style=\"text-align: start;\"><em>Establishment of Change Priorities:</em></p><ul style=\"text-align: start;\"><li>Ranking of proposed changes based on importance.</li><li>Criteria for determining priority levels.</li><li>Consideration of dependencies and potential synergies among changes.</li></ul>",
+          "helpRef": "A.2.5.4",
+          "history": [
+            {
+              "attributesChanged": {
+                "text": null
+              },
+              "changedBy": {
+                "company": "",
+                "email": "omar.elnily@ejust.edu.eg",
+                "name": "Omar Elnily"
+              },
+              "changedOn": "2023-12-31T15:18:06.585Z"
+            }
+          ]
+        },
+        {
+          "id": "21",
+          "guid": "153ff641-c408-459e-b18c-2c87ef615ae1",
+          "heading": "Changes considered but not included",
+          "text": "<p style=\"text-align: start;\"><em>Explanation of Omitted Changes:</em></p><ul style=\"text-align: start;\"><li>Identification of potential changes discussed but not incorporated into the system.</li><li>Rationale for excluding specific modifications.</li><li>Consideration of the impact on system performance and user experience.</li></ul>",
+          "helpRef": "A.2.5.5",
+          "history": [
+            {
+              "attributesChanged": {
+                "text": null
+              },
+              "changedBy": {
+                "company": "",
+                "email": "omar.elnily@ejust.edu.eg",
+                "name": "Omar Elnily"
+              },
+              "changedOn": "2023-12-31T15:17:48.666Z"
+            }
+          ]
+        },
+        {
+          "id": "22",
+          "guid": "693f58d3-8723-41f6-97b7-43c97d54b501",
+          "heading": "Assumptions and constraints",
+          "text": "<p style=\"text-align: start;\"><em>Identification of Assumptions and Constraints:</em></p><ul style=\"text-align: start;\"><li>List of assumptions made during the system development.</li><li>Constraints limiting design options or system functionalities.</li><li>Clear documentation of factors influencing system design decisions.</li></ul>",
+          "helpRef": "A.2.5.6",
+          "history": [
+            {
+              "attributesChanged": {
+                "text": null
+              },
+              "changedBy": {
+                "company": "",
+                "email": "omar.elnily@ejust.edu.eg",
+                "name": "Omar Elnily"
+              },
+              "changedOn": "2023-12-31T15:17:42.046Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "guid": "f9bc2cb4-0018-48b5-a521-71f2784e197b",
+      "heading": "Concepts for the proposed system",
+      "helpRef": "A.2.6.1",
+      "children": [
+        {
+          "id": "24",
+          "guid": "6a9ebfbc-a39a-4d95-96e3-eec2d8e84a3b",
+          "heading": "Background, objectives and scope",
+          "text": "<p style=\"text-align: start;\"><em>Understanding System Context:</em></p><ul style=\"text-align: start;\"><li>Overview of the historical context and motivations behind the system.</li><li>Clear definition of objectives and the overall scope of the Gym Management System.</li></ul>",
+          "helpRef": "A.2.6.2",
+          "history": [
+            {
+              "attributesChanged": {
+                "text": null
+              },
+              "changedBy": {
+                "company": "",
+                "email": "omar.elnily@ejust.edu.eg",
+                "name": "Omar Elnily"
+              },
+              "changedOn": "2023-12-31T15:28:51.513Z"
+            }
+          ]
+        },
+        {
+          "id": "25",
+          "guid": "86579a3a-0101-4b80-bed0-f5855e7a9f2a",
+          "heading": "Operational policies and constraints",
+          "text": "<p style=\"text-align: start;\"><em>Guiding Policies and Limitations:</em></p><ul style=\"text-align: start;\"><li>Clear documentation of operational policies influencing system operation.</li><li>Identification of constraints affecting system functionalities.</li></ul>",
+          "helpRef": "A.2.6.3",
+          "history": [
+            {
+              "attributesChanged": {
+                "text": null
+              },
+              "changedBy": {
+                "company": "",
+                "email": "omar.elnily@ejust.edu.eg",
+                "name": "Omar Elnily"
+              },
+              "changedOn": "2023-12-31T15:28:57.552Z"
+            }
+          ]
+        },
+        {
+          "id": "26",
+          "guid": "4fc7f708-078e-4a21-802f-db893bd7bb35",
+          "heading": "Description of the proposed system",
+          "text": "<p style=\"text-align: start;\"><em>Overview of the Gym Management System:</em></p><ul style=\"text-align: start;\"><li>Comprehensive description of the proposed system.</li><li>Explanation of major features, functionalities, and components.</li></ul>",
+          "helpRef": "A.2.6.4",
+          "history": [
+            {
+              "attributesChanged": {
+                "text": null
+              },
+              "changedBy": {
+                "company": "",
+                "email": "omar.elnily@ejust.edu.eg",
+                "name": "Omar Elnily"
+              },
+              "changedOn": "2023-12-31T15:29:04.034Z"
+            }
+          ]
+        },
+        {
+          "id": "27",
+          "guid": "d910c6f4-1f9f-4a52-8ff1-6121ba9a6b2e",
+          "heading": "Modes of operation",
+          "text": "<p style=\"text-align: start;\"><em>Explanation of System Modes:</em></p><ul style=\"text-align: start;\"><li>Description of various modes in which the system can operate.</li><li>Consideration of operational, maintenance, emergency, or other distinct modes.</li></ul>",
+          "helpRef": "A.2.6.5",
+          "history": [
+            {
+              "attributesChanged": {
+                "text": null
+              },
+              "changedBy": {
+                "company": "",
+                "email": "omar.elnily@ejust.edu.eg",
+                "name": "Omar Elnily"
+              },
+              "changedOn": "2023-12-31T15:29:10.132Z"
+            }
+          ]
+        },
+        {
+          "id": "28",
+          "guid": "3e315690-208d-412e-a56f-fb6ddbd566ad",
+          "heading": "User classes and other involved personnel",
+          "text": "<p style=\"text-align: start;\"><em>Inclusive Identification of System Users:</em></p><ul style=\"text-align: start;\"><li>Comprehensive listing of all user classes and additional involved personnel.</li><li>Roles and contributions of each class and individual.</li><li>Consideration of how each user group influences or interacts with the Gym Management System.</li></ul>",
+          "helpRef": "A.2.6.6.1",
+          "history": [
+            {
+              "attributesChanged": {
+                "text": null
+              },
+              "changedBy": {
+                "company": "",
+                "email": "omar.elnily@ejust.edu.eg",
+                "name": "Omar Elnily"
+              },
+              "changedOn": "2023-12-31T15:29:19.706Z"
+            }
+          ],
+          "children": [
+            {
+              "id": "29",
+              "guid": "755d527a-4372-4ef5-8b1c-46a983e3649e",
+              "heading": "Organizational structure",
+              "text": "<p style=\"text-align: start;\"><em>Description of Organizational Framework:</em></p><ul style=\"text-align: start;\"><li>Overview of the organizational structure related to the Gym Management System.</li><li>Identification of divisions, departments, and roles impacting system implementation.</li><li>Consideration of how the system aligns with and supports organizational goals.</li></ul>",
+              "helpRef": "A.2.6.6.2",
+              "history": [
+                {
+                  "attributesChanged": {
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "omar.elnily@ejust.edu.eg",
+                    "name": "Omar Elnily"
+                  },
+                  "changedOn": "2023-12-31T15:29:26.963Z"
+                }
+              ]
+            },
+            {
+              "id": "30",
+              "guid": "c230b156-1da8-40c6-9667-257b59c0d591",
+              "heading": "Profiles of user classes",
+              "text": "<p style=\"text-align: start;\"><em>Detailed Profiles for Each User Class:</em></p><ul style=\"text-align: start;\"><li>In-depth descriptions of characteristics, responsibilities, and expectations for each user class.</li><li>Consideration of user preferences, skill levels, and specific system interactions.</li><li>Development of user personas to guide design decisions.</li></ul>",
+              "helpRef": "A.2.6.6.3",
+              "history": [
+                {
+                  "attributesChanged": {
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "omar.elnily@ejust.edu.eg",
+                    "name": "Omar Elnily"
+                  },
+                  "changedOn": "2023-12-31T15:29:34.546Z"
+                }
+              ]
+            },
+            {
+              "id": "31",
+              "guid": "12f849e3-f00a-4b0a-b94a-89d4e3226cac",
+              "heading": "Interactions among user classes",
+              "text": "<p style=\"text-align: start;\"><em>Mapping User Interactions:</em></p><ul style=\"text-align: start;\"><li>Visual representation or description of interactions among different user classes.</li><li>Consideration of collaborative processes and shared functionalities.</li><li>Identification of potential conflicts or dependencies in user interactions.</li></ul>",
+              "helpRef": "A.2.6.6.4",
+              "history": [
+                {
+                  "attributesChanged": {
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "omar.elnily@ejust.edu.eg",
+                    "name": "Omar Elnily"
+                  },
+                  "changedOn": "2023-12-31T15:29:44.678Z"
+                }
+              ]
+            },
+            {
+              "id": "32",
+              "guid": "45e0555a-85d6-4bb5-a07c-f1df4d85b9cd",
+              "heading": "Other involved personnel",
+              "text": "<p style=\"text-align: start;\"><em>Documentation of Additional Contributors:</em></p><ul style=\"text-align: start;\"><li>Identification and roles of personnel beyond user classes.</li><li>Roles and responsibilities of individuals contributing to system development, maintenance, or support.</li></ul>",
+              "helpRef": "A.2.6.6.5",
+              "history": [
+                {
+                  "attributesChanged": {
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "omar.elnily@ejust.edu.eg",
+                    "name": "Omar Elnily"
+                  },
+                  "changedOn": "2023-12-31T15:29:52.859Z"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "33",
+          "guid": "60a9faa2-83a4-402d-9c76-e0810431d82e",
+          "heading": "Support environment",
+          "text": "<p style=\"text-align: start;\"><em>Identification of Support Elements:</em></p><ul style=\"text-align: start;\"><li>Definition of the environment necessary for system support.</li><li>Consideration of technical, human, and financial support requirements.</li></ul>",
+          "helpRef": "A.2.6.7",
+          "history": [
+            {
+              "attributesChanged": {
+                "text": null
+              },
+              "changedBy": {
+                "company": "",
+                "email": "omar.elnily@ejust.edu.eg",
+                "name": "Omar Elnily"
+              },
+              "changedOn": "2023-12-31T15:29:59.925Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "34",
+      "guid": "91fc1ce6-f39c-4db2-8a6a-eb517e23775c",
+      "heading": "Operational scenarios",
+      "text": "<p style=\"text-align: start;\"><em>Detailed Operational Situations:</em></p><ul style=\"text-align: start;\"><li>In-depth exploration of various scenarios in which the system will operate.</li><li>Consideration of diverse situations to ensure system flexibility.</li></ul>",
+      "helpRef": "A.2.7",
+      "history": [
+        {
+          "attributesChanged": {
+            "text": null
+          },
+          "changedBy": {
+            "company": "",
+            "email": "omar.elnily@ejust.edu.eg",
+            "name": "Omar Elnily"
+          },
+          "changedOn": "2023-12-31T15:30:07.203Z"
+        }
+      ]
+    },
+    {
+      "id": "35",
+      "guid": "96c4d046-9ab7-40d7-a695-4a0209b56551",
+      "heading": "Summary of impacts",
+      "helpRef": "A.2.8.1",
+      "children": [
+        {
+          "id": "36",
+          "guid": "c60794b0-61f7-4450-bf07-b27f8b6f57e9",
+          "heading": "Operational impacts",
+          "text": "<p style=\"text-align: start;\"><em>Assessment of Operational Consequences:</em></p><ul style=\"text-align: start;\"><li>Identification of effects on day-to-day operations.</li><li>Consideration of changes in procedures, tasks, or resource allocation.</li></ul>",
+          "helpRef": "A.2.8.2",
+          "history": [
+            {
+              "attributesChanged": {
+                "text": null
+              },
+              "changedBy": {
+                "company": "",
+                "email": "omar.elnily@ejust.edu.eg",
+                "name": "Omar Elnily"
+              },
+              "changedOn": "2023-12-31T15:30:12.850Z"
+            }
+          ]
+        },
+        {
+          "id": "37",
+          "guid": "09bf0a12-ba65-4126-a20d-76e501711d43",
+          "heading": "Organizational impacts",
+          "text": "<p style=\"text-align: start;\"><em>Understanding Effects on the Organization:</em></p><ul style=\"text-align: start;\"><li>Analysis of how the Gym Management System impacts the organization.</li><li>Consideration of changes in workflows, structures, or processes.</li></ul>",
+          "helpRef": "A.2.8.3",
+          "history": [
+            {
+              "attributesChanged": {
+                "text": null
+              },
+              "changedBy": {
+                "company": "",
+                "email": "omar.elnily@ejust.edu.eg",
+                "name": "Omar Elnily"
+              },
+              "changedOn": "2023-12-31T15:30:20.592Z"
+            }
+          ]
+        },
+        {
+          "id": "38",
+          "guid": "fe552e59-cc5d-4bfc-b744-cdf9122f938c",
+          "heading": "Impacts during development",
+          "text": "<p style=\"text-align: start;\"><em>Assessment of Developmental Effects:</em></p><ul style=\"text-align: start;\"><li>Identification of effects on the system during the development phase.</li><li>Consideration of challenges or advantages encountered in the development process.</li></ul>",
+          "helpRef": "A.2.8.4",
+          "history": [
+            {
+              "attributesChanged": {
+                "text": null
+              },
+              "changedBy": {
+                "company": "",
+                "email": "omar.elnily@ejust.edu.eg",
+                "name": "Omar Elnily"
+              },
+              "changedOn": "2023-12-31T15:30:27.267Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "39",
+      "guid": "849796b7-d28b-48d2-90ec-782d94859b35",
+      "heading": "Analysis of the proposed system",
+      "helpRef": "A.2.9.1",
+      "children": [
+        {
+          "id": "40",
+          "guid": "a0d4c548-855b-41be-870c-b5f237aa3c57",
+          "heading": "Benefits",
+          "text": "<p style=\"text-align: start;\"><em>Highlighting Positive Outcomes:</em></p><ul style=\"text-align: start;\"><li>Explicit enumeration of advantages and positive impacts.</li><li>Explanation of how the Gym Management System adds value.</li></ul>",
+          "helpRef": "A.2.9.2",
+          "history": [
+            {
+              "attributesChanged": {
+                "text": null
+              },
+              "changedBy": {
+                "company": "",
+                "email": "omar.elnily@ejust.edu.eg",
+                "name": "Omar Elnily"
+              },
+              "changedOn": "2023-12-31T15:30:38.776Z"
+            }
+          ]
+        },
+        {
+          "id": "41",
+          "guid": "a4b90177-6106-4a10-900f-5cefad931e29",
+          "heading": "Disadvantages and limitations",
+          "text": "<p style=\"text-align: start;\"><em>Transparent Discussion of Challenges:</em></p><ul style=\"text-align: start;\"><li>Clear identification of potential drawbacks or limitations.</li><li>Analysis of constraints that could impact system performance.</li></ul>",
+          "helpRef": "A.2.9.3",
+          "history": [
+            {
+              "attributesChanged": {
+                "text": null
+              },
+              "changedBy": {
+                "company": "",
+                "email": "omar.elnily@ejust.edu.eg",
+                "name": "Omar Elnily"
+              },
+              "changedOn": "2023-12-31T15:30:45.243Z"
+            }
+          ]
+        },
+        {
+          "id": "42",
+          "guid": "392e58db-6115-4e42-8e99-733e9c2d1ab2",
+          "heading": "Alternatives considered",
+          "text": "<p style=\"text-align: start;\"><em>Exploration of Options:</em></p><ul style=\"text-align: start;\"><li>Identification and analysis of alternative solutions.</li><li>Evaluation of different approaches considered during system design.</li></ul>",
+          "helpRef": "A.2.9.4",
+          "history": [
+            {
+              "attributesChanged": {
+                "text": null
+              },
+              "changedBy": {
+                "company": "",
+                "email": "omar.elnily@ejust.edu.eg",
+                "name": "Omar Elnily"
+              },
+              "changedOn": "2023-12-31T15:30:52.246Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "43",
+      "guid": "4b8749c2-bba5-4425-894f-f96268eb21f3",
+      "heading": "Appendices",
+      "text": "<p style=\"text-align: start;\"><em>Supplementary Information:</em></p><ul style=\"text-align: start;\"><li>Additional documentation supporting the OpsCon.</li><li>Detailed data, charts, or reference materials enhancing comprehension.</li></ul>",
+      "helpRef": "A.2.10",
+      "history": [
+        {
+          "attributesChanged": {
+            "text": null
+          },
+          "changedBy": {
+            "company": "",
+            "email": "omar.elnily@ejust.edu.eg",
+            "name": "Omar Elnily"
+          },
+          "changedOn": "2023-12-31T15:31:00.413Z"
+        }
+      ]
+    },
+    {
+      "id": "44",
+      "guid": "29013905-926d-4f3f-9de0-1475de585e25",
+      "heading": "Glossary",
+      "text": "<p style=\"text-align: start;\"><em>Definition of Key Terms:</em></p><ul style=\"text-align: start;\"><li>Comprehensive list of terms relevant to the Gym Management System.</li><li>Clear and concise definitions to ensure a common understanding.</li></ul>",
+      "helpRef": "A.2.11",
+      "history": [
+        {
+          "attributesChanged": {
+            "text": null
+          },
+          "changedBy": {
+            "company": "",
+            "email": "omar.elnily@ejust.edu.eg",
+            "name": "Omar Elnily"
+          },
+          "changedOn": "2023-12-31T15:31:18.132Z"
+        }
+      ]
+    },
+    {
+      "id": "45",
+      "guid": "afe14788-f462-4dd7-815b-ecfea0903479",
+      "deleted": true,
+      "heading": "References",
+      "helpRef": "A.2.3",
+      "history": [
+        {
+          "attributesChanged": {
+            "deleted": null
+          },
+          "changedBy": {
+            "company": "",
+            "email": "omar.elnily@ejust.edu.eg",
+            "name": "Omar Elnily"
+          },
+          "changedOn": "2024-01-03T19:03:29.777Z"
+        }
+      ]
+    }
+  ],
+  "attributes": {
+  },
+  "templateColumns": {
+  },
+  "views": {
+    "Primary": {
+      "columns": [
+        {
+          "columnId": "id",
+          "width": 65
+        },
+        {
+          "columnId": "description",
+          "width": 500
+        }
+      ],
+      "default": true
+    }
+  },
+  "metadata": {
+    "format": "2.17"
+  }
+}

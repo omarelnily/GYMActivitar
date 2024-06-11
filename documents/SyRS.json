@@ -1,0 +1,781 @@
+{
+  "id": "SyRS",
+  "guid": "7779f83f-631a-4fce-a645-83222057727c",
+  "name": "System Requirements Specification",
+  "lastId": 32,
+  "createdOn": "2023-12-31T09:21:44.587Z",
+  "createdBy": {
+    "name": "Omar Elnily",
+    "email": "omar.elnily@ejust.edu.eg",
+    "company": ""
+  },
+  "lastChangedOn": "2024-01-03T19:02:31.896Z",
+  "lastChangedBy": {
+    "name": "Omar Elnily",
+    "email": "omar.elnily@ejust.edu.eg",
+    "company": ""
+  },
+  "helpRef": "ISO/IEC/IEEE 29148:2018",
+  "data": [
+    {
+      "id": "1",
+      "guid": "e5c0ef69-fbfd-4d9c-8b98-93f3209763ff",
+      "heading": "Introduction",
+      "helpRef": "8.4.1",
+      "type": "SEC",
+      "children": [
+        {
+          "id": "2",
+          "guid": "dd3bdde3-7414-4d26-b5a3-1e5e858a743a",
+          "heading": "System purpose",
+          "text": "<ul style=\"text-align: start;\"><li><em>Definition:</em> The purpose of the Gym Management System is to streamline and enhance the overall operation of the fitness facility by providing an integrated platform for efficient management of members, classes, schedules, billing, and administrative tasks. The system aims to improve user experience, increase operational efficiency, and support data-driven decision-making within the gym environment.</li></ul>",
+          "helpRef": "9.5.2",
+          "type": "SEC",
+          "history": [
+            {
+              "attributesChanged": {
+                "text": null
+              },
+              "changedBy": {
+                "company": "",
+                "email": "omar.elnily@ejust.edu.eg",
+                "name": "Omar Elnily"
+              },
+              "changedOn": "2023-12-31T14:20:06.495Z"
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "guid": "2e6126bf-120a-4ce3-8b79-bebac497b9bb",
+          "heading": "System scope",
+          "text": "<ul style=\"text-align: start;\"><li><em>Identification of the System:</em> The Gym Management System, referred to as \"GymSys.\"</li><li><em>Results of Needs Analysis:</em> Based on the finalized needs analysis, GymSys addresses the challenges identified by users, including member management, class scheduling, billing accuracy, and administrative processes.</li><li><em>Description of Application:</em> GymSys encompasses member registration, attendance tracking, class scheduling, billing and invoicing, staff management, and reporting. It will not handle external sales or non-fitness-related operations.</li></ul>",
+          "helpRef": "9.5.3",
+          "type": "SEC",
+          "history": [
+            {
+              "attributesChanged": {
+                "text": null
+              },
+              "changedBy": {
+                "company": "",
+                "email": "omar.elnily@ejust.edu.eg",
+                "name": "Omar Elnily"
+              },
+              "changedOn": "2023-12-31T14:20:26.901Z"
+            }
+          ]
+        },
+        {
+          "id": "4",
+          "guid": "648163b3-a1fd-4ed9-9efb-3ce537a123a7",
+          "heading": "System overview",
+          "helpRef": "9.5.4",
+          "type": "SEC",
+          "children": [
+            {
+              "id": "5",
+              "guid": "e6076fb1-d6be-4e7d-90a4-1ca46da7346e",
+              "heading": "System context",
+              "text": "<p><em style=\"text-align: left;\">Description:</em><span style=\"text-align: left;\">&nbsp;GymSys exists within a broader context that includes gym staff, members, and external entities. Major interfaces involve member interactions through web and mobile applications, staff interactions through administrative interfaces, and integration with payment gateways and attendance tracking systems. A contextual diagram illustrates these interactions.</span></p>",
+              "helpRef": "9.5.4.1",
+              "type": "SEC",
+              "history": [
+                {
+                  "attributesChanged": {
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "omar.elnily@ejust.edu.eg",
+                    "name": "Omar Elnily"
+                  },
+                  "changedOn": "2023-12-31T14:20:37.101Z"
+                }
+              ]
+            },
+            {
+              "id": "6",
+              "guid": "1934d2c6-8ccf-456e-9b3b-46258ccb8e8d",
+              "heading": "System functions",
+              "text": "<ul style=\"text-align: start;\"><li><em>Major System Capabilities:</em><ul><li>Member Management: Registration, profile management, and membership plans.</li><li>Class Scheduling: Creation, modification, and cancellation of fitness classes.</li><li>Billing and Invoicing: Automated billing, invoice generation, and payment tracking.</li><li>Staff Management: User roles, access controls, and staff scheduling.</li><li>Reporting: Generation of reports on attendance, revenue, and member engagement.</li></ul></li><li><em>Conditions and Constraints:</em> The system operates within legal and regulatory frameworks related to data privacy, financial transactions, and gym operations.</li></ul>",
+              "helpRef": "9.5.4.2",
+              "type": "SEC",
+              "history": [
+                {
+                  "attributesChanged": {
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "omar.elnily@ejust.edu.eg",
+                    "name": "Omar Elnily"
+                  },
+                  "changedOn": "2023-12-31T14:20:47.603Z"
+                }
+              ]
+            },
+            {
+              "id": "7",
+              "guid": "8d07fd6f-47ec-4bc6-a5bd-6b7bf1b51844",
+              "heading": "User  characteristics",
+              "text": "<ul style=\"text-align: start;\"><li><em>Identification of User Types:</em><ul><li><strong>Members:</strong> Gym-goers accessing the system for class bookings, attendance tracking, and membership management.</li><li><strong>Staff:</strong> Front desk, trainers, and administrators managing classes, schedules, and administrative tasks.</li><li><strong>Maintainers:</strong> IT personnel ensuring system availability and resolving technical issues.</li></ul></li><li><em>Number in Each Group:</em> Variable based on the size of the gym facility.</li><li><em>Nature of Use:</em> Members engage with the system for personal fitness tracking, staff use it for administrative tasks, and maintainers ensure system functionality.</li></ul>",
+              "helpRef": "9.5.4.3",
+              "type": "SEC",
+              "history": [
+                {
+                  "attributesChanged": {
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "omar.elnily@ejust.edu.eg",
+                    "name": "Omar Elnily"
+                  },
+                  "changedOn": "2023-12-31T14:21:03.127Z"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "8",
+          "guid": "8806167b-1ebf-47b0-91eb-8d23d60a25f8",
+          "heading": "Assumptions and dependencies",
+          "helpRef": "9.5.19",
+          "type": "SEC"
+        },
+        {
+          "id": "9",
+          "guid": "8a76dc9e-cc6d-4080-9dcb-46b08835bbf4",
+          "heading": "Definitions",
+          "text": "<ol style=\"text-align: start;\"><li><p><strong>Gym Management System:</strong></p><ul><li><em>Definition:</em> A comprehensive software solution designed to streamline and automate various aspects of gym operations, including member management, class scheduling, attendance tracking, and financial transactions.</li></ul></li><li><p><strong>Member:</strong></p><ul><li><em>Definition:</em> An individual who has registered with the gym, holding a valid membership, and has access to gym facilities and services.</li></ul></li><li><p><strong>Membership Type:</strong></p><ul><li><em>Definition:</em> A categorization of memberships based on duration, privileges, and services offered, such as monthly, yearly, or premium memberships.</li></ul></li><li><p><strong>Attendance Tracking:</strong></p><ul><li><em>Definition:</em> The process of recording and monitoring members' entry and exit times to the gym, often used for compliance, security, and member engagement.</li></ul></li><li><p><strong>Trainer:</strong></p><ul><li><em>Definition:</em> A certified fitness professional employed by the gym to provide training sessions, fitness plans, and guidance to members.</li></ul></li><li><p><strong>Exercise Plan:</strong></p><ul><li><em>Definition:</em> A customized plan created for a member by a trainer, outlining specific exercises, duration, and intensity to help the member achieve fitness goals.</li></ul></li><li><p><strong>Workout Log:</strong></p><ul><li><em>Definition:</em> A record maintained by members to log details of their workout sessions, including exercises performed, sets, reps, and weights used.</li></ul></li><li><p><strong>Class Schedule:</strong></p><ul><li><em>Definition:</em> A timetable that outlines the timing, duration, and type of fitness classes offered by the gym, including details about instructors and available slots.</li></ul></li><li><p><strong>Payment Transactions:</strong></p><ul><li><em>Definition:</em> Financial transactions related to membership fees, personal training sessions, and other services offered by the gym.</li></ul></li><li><p><strong>Messaging System:</strong></p><ul><li><em>Definition:</em> A communication platform within the gym management system, facilitating interaction between members, trainers, and administrators.</li></ul></li></ol>",
+          "helpRef": "9.2.3",
+          "type": "SEC",
+          "history": [
+            {
+              "attributesChanged": {
+                "text": null
+              },
+              "changedBy": {
+                "company": "",
+                "email": "omar.elnily@ejust.edu.eg",
+                "name": "Omar Elnily"
+              },
+              "changedOn": "2023-12-31T14:30:55.832Z"
+            }
+          ]
+        },
+        {
+          "id": "10",
+          "guid": "a68b4b97-611e-4b53-90a4-c1ccf9e0cae2",
+          "heading": "Acronyms and abbreviations",
+          "text": "<ol style=\"text-align: start;\"><li><p><strong>GMS:</strong> Gym Management System</p><ul><li><em>Definition:</em> A comprehensive software solution designed to streamline and automate various aspects of gym operations, including member management, class scheduling, attendance tracking, and financial transactions.</li></ul></li><li><p><strong>CRUD:</strong> Create, Read, Update, Delete</p><ul><li><em>Definition:</em> A set of basic operations performed on data, commonly used in database and application development.</li></ul></li><li><p><strong>API:</strong> Application Programming Interface</p><ul><li><em>Definition:</em> A set of protocols and tools for building software applications, allowing them to communicate with each other.</li></ul></li><li><p><strong>UI:</strong> User Interface</p><ul><li><em>Definition:</em> The visual elements and controls through which users interact with a software application.</li></ul></li><li><p><strong>UX:</strong> User Experience</p><ul><li><em>Definition:</em> The overall experience a user has with a software application, including usability, accessibility, and satisfaction.</li></ul></li><li><p><strong>SQL:</strong> Structured Query Language</p><ul><li><em>Definition:</em> A domain-specific language used for managing and manipulating relational databases.</li></ul></li><li><p><strong>HTML:</strong> Hypertext Markup Language</p><ul><li><em>Definition:</em> The standard markup language for creating web pages and web applications.</li></ul></li><li><p><strong>CSS:</strong> Cascading Style Sheets</p><ul><li><em>Definition:</em> A style sheet language used for describing the presentation of a document written in HTML or XML.</li></ul></li><li><p><strong>JS:</strong> JavaScript</p><ul><li><em>Definition:</em> A programming language that enables interactive web pages and is essential for front-end web development.</li></ul></li><li><p><strong>MVC:</strong> Model-View-Controller</p><ul><li><em>Definition:</em> A software design pattern for developing web applications, dividing the application into three interconnected components: Model, View, and Controller.</li></ul></li></ol>",
+          "helpRef": "9.2.5",
+          "type": "SEC",
+          "history": [
+            {
+              "attributesChanged": {
+                "text": null
+              },
+              "changedBy": {
+                "company": "",
+                "email": "omar.elnily@ejust.edu.eg",
+                "name": "Omar Elnily"
+              },
+              "changedOn": "2023-12-31T14:31:18.058Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "guid": "effc0356-531d-4c1d-8b31-2fed115b9078",
+      "heading": "System requirements",
+      "type": "SEC",
+      "children": [
+        {
+          "id": "12",
+          "guid": "90f65edd-87ac-4ee1-8f02-561b7529ef41",
+          "heading": "Functional requirements",
+          "text": "<p><em style=\"text-align: left;\">System Operation:</em></p><ul style=\"text-align: left;\"><li><strong>Member Management:</strong><ul><li>Register new members with necessary details.</li><li>Track and update member profiles.</li><li>Manage membership plans and renewals.</li></ul></li><li><strong>Class Scheduling:</strong><ul><li>Create, modify, and cancel fitness classes.</li><li>Allow members to view and book classes.</li></ul></li><li><strong>Billing and Invoicing:</strong><ul><li>Automatically generate bills based on membership plans.</li><li>Track payments and issue invoices.</li></ul></li><li><strong>Staff Management:</strong><ul><li>Define user roles with specific access levels.</li><li>Schedule staff shifts and manage tasks.</li></ul></li><li><strong>Reporting:</strong><ul><li>Generate reports on attendance, revenue, and member engagement.</li></ul></li></ul>",
+          "helpRef": "9.5.5",
+          "type": "SEC",
+          "history": [
+            {
+              "attributesChanged": {
+                "text": null
+              },
+              "changedBy": {
+                "company": "",
+                "email": "omar.elnily@ejust.edu.eg",
+                "name": "Omar Elnily"
+              },
+              "changedOn": "2023-12-31T14:29:18.105Z"
+            }
+          ]
+        },
+        {
+          "id": "13",
+          "guid": "e0c2eb2a-8adf-41ae-87f4-35e0ff984031",
+          "heading": "Usability requirements",
+          "text": "<ul style=\"text-align: start;\"><li><em>Effectiveness:</em> Members should be able to book classes and manage memberships without errors.</li><li><em>Efficiency:</em> The system should allow quick access to information and smooth navigation.</li><li><em>Satisfaction:</em> Users should express a high level of satisfaction with the system's usability.</li><li><em>Contexts of Use:</em> Usability will be evaluated in contexts such as member registration, class booking, and payment processing.</li></ul>",
+          "helpRef": "9.5.6",
+          "type": "SEC",
+          "history": [
+            {
+              "attributesChanged": {
+                "text": null
+              },
+              "changedBy": {
+                "company": "",
+                "email": "omar.elnily@ejust.edu.eg",
+                "name": "Omar Elnily"
+              },
+              "changedOn": "2023-12-31T14:29:28.668Z"
+            }
+          ]
+        },
+        {
+          "id": "14",
+          "guid": "9b886e9f-4a5a-4b8b-9bdb-f799fa2753ef",
+          "heading": "Performance requirements",
+          "text": "<ul style=\"text-align: start;\"><li><em>Dynamic Actions:</em><ul><li>System response time for critical actions should be less than 2 seconds.</li><li>Class booking and cancellation processes should be instantaneous.</li></ul></li><li><em>Quantitative Criteria:</em><ul><li>The system should have a minimum total life expectancy of 5 years.</li><li>Operational session duration is 24/7, and the planned utilization rate is 90% during peak hours.</li></ul></li><li><em>Operational Phases and Modes:</em><ul><li>Normal Operation: All features and functions should operate seamlessly.</li><li>Maintenance Mode: The system should provide a user-friendly maintenance interface during scheduled downtimes.</li></ul></li></ul>",
+          "helpRef": "9.5.7",
+          "type": "SEC",
+          "history": [
+            {
+              "attributesChanged": {
+                "text": null
+              },
+              "changedBy": {
+                "company": "",
+                "email": "omar.elnily@ejust.edu.eg",
+                "name": "Omar Elnily"
+              },
+              "changedOn": "2023-12-31T14:29:39.848Z"
+            }
+          ]
+        },
+        {
+          "id": "15",
+          "guid": "292d82e3-286c-4318-9dba-39f48464d2ae",
+          "heading": "System interface requirements",
+          "text": "<ul style=\"text-align: start;\"><li><em>Internal Interfaces:</em><ul><li>Member Interface: Interaction for member registration, class booking, and profile management.</li><li>Staff Interface: Administrative access for class scheduling, billing, and reporting.</li></ul></li><li><em>External Interfaces:</em><ul><li>Payment Gateway: Secure communication for processing member payments.</li><li>Attendance Tracking System: Integration for real-time attendance data.</li></ul></li><li><em>Interdependencies and Constraints:</em><ul><li>Communication Protocols: HTTPS for secure data transmission.</li><li>Standards: Follow industry standards for data privacy (e.g., GDPR).</li><li>Interface Formats: JSON for data interchange between internal modules.</li></ul></li></ul>",
+          "helpRef": "9.5.8",
+          "type": "SEC",
+          "history": [
+            {
+              "attributesChanged": {
+                "text": null
+              },
+              "changedBy": {
+                "company": "",
+                "email": "omar.elnily@ejust.edu.eg",
+                "name": "Omar Elnily"
+              },
+              "changedOn": "2023-12-31T14:29:54.290Z"
+            }
+          ]
+        },
+        {
+          "id": "16",
+          "guid": "278c5149-ca8d-4e02-b45e-f0714cc83655",
+          "heading": "System operations",
+          "helpRef": "9.5.9",
+          "type": "SEC",
+          "children": [
+            {
+              "id": "17",
+              "guid": "d096b54c-e603-4dea-9879-af0a3f78bfc0",
+              "heading": "Human system integration requirements",
+              "text": "<ul style=\"text-align: start;\"><li><em>Applicable Documents:</em><ul><li>Reference ISO 18529 for Ergonomics of human-system interaction.</li><li>Specify adherence to industry-specific human factors guidelines.</li></ul></li><li><em>Special Requirements:</em><ul><li>Constraints on Function Allocation: Clearly define roles and responsibilities of staff members in using the system.</li><li>Communication Constraints: Specify any restrictions or guidelines for communication between personnel and equipment.</li><li>Critical Areas: Identify areas where human error could have severe consequences, ensuring concentrated attention to human engineering.</li></ul></li></ul>",
+              "helpRef": "9.5.9.1",
+              "type": "SEC",
+              "history": [
+                {
+                  "attributesChanged": {
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "omar.elnily@ejust.edu.eg",
+                    "name": "Omar Elnily"
+                  },
+                  "changedOn": "2023-12-31T14:42:09.489Z"
+                }
+              ]
+            },
+            {
+              "id": "18",
+              "guid": "8e4e948d-db5f-44a3-a526-973de29020ef",
+              "heading": "Maintainability requirements",
+              "text": "<ul style=\"text-align: start;\"><li><em>Quantitative Requirements:</em><ul><li>Time:<ul><li>Mean and maximum downtime should not exceed 1 hour per month.</li><li>Turnaround time for maintenance actions should be within 4 hours.</li></ul></li><li>Rate:<ul><li>Maintenance staff hours per specific maintenance action should not exceed 2 hours.</li><li>Operational ready rate should be 98%.</li></ul></li><li>Maintenance Complexity:<ul><li>Maintenance actions should be achievable with a team of 2 people with intermediate skill levels.</li><li>Support equipment variety should be manageable with standard tools.</li></ul></li><li>Maintenance Action Indices:<ul><li>Maintenance costs per operating hour should be below $5.</li><li>Staff hours per overhaul should be within 20 hours.</li></ul></li><li>Accessibility:<ul><li>Components within systems should be easily accessible for maintenance.</li></ul></li></ul></li></ul>",
+              "helpRef": "9.5.9.2",
+              "type": "SEC",
+              "history": [
+                {
+                  "attributesChanged": {
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "omar.elnily@ejust.edu.eg",
+                    "name": "Omar Elnily"
+                  },
+                  "changedOn": "2023-12-31T14:41:10.675Z"
+                }
+              ]
+            },
+            {
+              "id": "19",
+              "guid": "079047e9-6229-4d1d-82d0-ddb5274e38bb",
+              "heading": "Reliability  requirements",
+              "text": "<p><em style=\"text-align: left;\">Quantitative Requirements:</em></p><ul style=\"text-align: left;\"><li>System Reliability:<ul><li>The system should have a mean time between failures (MTBF) of at least 500 hours.</li><li>Reliability apportionment model should allocate values to system functions based on their contribution to overall reliability.</li></ul></li><li>Conditions for Reliability:<ul><li>Reliability requirements should be met under normal operating conditions.</li><li>Any deviations or exceptions should be clearly defined.</li></ul></li></ul>",
+              "helpRef": "9.5.9.3",
+              "type": "SEC",
+              "history": [
+                {
+                  "attributesChanged": {
+                    "text": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "omar.elnily@ejust.edu.eg",
+                    "name": "Omar Elnily"
+                  },
+                  "changedOn": "2023-12-31T14:41:24.789Z"
+                }
+              ]
+            },
+            {
+              "id": "20",
+              "guid": "4b1e1f2b-d642-4efb-9391-1859b1c33c7a",
+              "heading": "Other  quality requirements",
+              "helpRef": "9.5.9.4",
+              "type": "SEC"
+            }
+          ]
+        },
+        {
+          "id": "21",
+          "guid": "33f4d73a-2821-40d4-9532-e4a502966d70",
+          "heading": "System modes and states",
+          "text": "<p><br></p><ul><li>Normal Operation: All functions are available and operational.</li><li>Maintenance Mode: Limited functionality for system maintenance.</li><li>Emergency Mode: Critical functions available in emergency situations.</li></ul>",
+          "helpRef": "9.5.10",
+          "type": "SEC",
+          "history": [
+            {
+              "attributesChanged": {
+                "text": null
+              },
+              "changedBy": {
+                "company": "",
+                "email": "omar.elnily@ejust.edu.eg",
+                "name": "Omar Elnily"
+              },
+              "changedOn": "2023-12-31T14:42:02.652Z"
+            }
+          ]
+        },
+        {
+          "id": "22",
+          "guid": "5902fbf8-3e8a-4f97-a870-ae5bb5c53b16",
+          "deleted": true,
+          "heading": "Physical  characteristics",
+          "helpRef": "9.5.11",
+          "type": "SEC",
+          "history": [
+            {
+              "attributesChanged": {
+                "deleted": null
+              },
+              "changedBy": {
+                "company": "",
+                "email": "omar.elnily@ejust.edu.eg",
+                "name": "Omar Elnily"
+              },
+              "changedOn": "2024-01-03T19:02:10.410Z"
+            }
+          ],
+          "children": [
+            {
+              "id": "23",
+              "guid": "63396bfc-5d2d-4b44-89b4-bfdd2935f80d",
+              "deleted": true,
+              "heading": "Physical  requirements",
+              "helpRef": "9.5.11.1",
+              "type": "SEC",
+              "history": [
+                {
+                  "attributesChanged": {
+                    "deleted": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "omar.elnily@ejust.edu.eg",
+                    "name": "Omar Elnily"
+                  },
+                  "changedOn": "2024-01-03T19:02:10.410Z"
+                }
+              ]
+            },
+            {
+              "id": "24",
+              "guid": "0b03a155-4cf6-4c7e-93c7-998224bd2d6e",
+              "deleted": true,
+              "heading": "Adaptability  requirements",
+              "helpRef": "9.5.11.2",
+              "type": "SEC",
+              "history": [
+                {
+                  "attributesChanged": {
+                    "deleted": null
+                  },
+                  "changedBy": {
+                    "company": "",
+                    "email": "omar.elnily@ejust.edu.eg",
+                    "name": "Omar Elnily"
+                  },
+                  "changedOn": "2024-01-03T19:02:10.410Z"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "25",
+          "guid": "bae33531-3357-40c5-846c-d4967e1c1c6c",
+          "deleted": true,
+          "heading": "Environmental conditions",
+          "helpRef": "9.5.12",
+          "type": "SEC",
+          "history": [
+            {
+              "attributesChanged": {
+                "deleted": null
+              },
+              "changedBy": {
+                "company": "",
+                "email": "omar.elnily@ejust.edu.eg",
+                "name": "Omar Elnily"
+              },
+              "changedOn": "2024-01-03T19:02:15.063Z"
+            }
+          ]
+        },
+        {
+          "id": "26",
+          "guid": "3d93cb65-a505-41da-8bb7-047934f456b9",
+          "deleted": true,
+          "heading": "System security requirements",
+          "helpRef": "9.5.13",
+          "type": "SEC",
+          "history": [
+            {
+              "attributesChanged": {
+                "deleted": null
+              },
+              "changedBy": {
+                "company": "",
+                "email": "omar.elnily@ejust.edu.eg",
+                "name": "Omar Elnily"
+              },
+              "changedOn": "2024-01-03T19:02:19.002Z"
+            }
+          ]
+        },
+        {
+          "id": "27",
+          "guid": "e3bbeb31-6c12-4cbe-bd61-22109ef668e1",
+          "deleted": true,
+          "heading": "Information management requirements",
+          "helpRef": "9.5.14",
+          "type": "SEC",
+          "history": [
+            {
+              "attributesChanged": {
+                "deleted": null
+              },
+              "changedBy": {
+                "company": "",
+                "email": "omar.elnily@ejust.edu.eg",
+                "name": "Omar Elnily"
+              },
+              "changedOn": "2024-01-03T19:02:17.203Z"
+            }
+          ]
+        },
+        {
+          "id": "28",
+          "guid": "55a35c5a-96d3-4570-8fe2-0b2d5a6c1970",
+          "deleted": true,
+          "heading": "Policy and regulation requirements",
+          "helpRef": "9.5.15",
+          "type": "SEC",
+          "history": [
+            {
+              "attributesChanged": {
+                "deleted": null
+              },
+              "changedBy": {
+                "company": "",
+                "email": "omar.elnily@ejust.edu.eg",
+                "name": "Omar Elnily"
+              },
+              "changedOn": "2024-01-03T19:02:20.909Z"
+            }
+          ]
+        },
+        {
+          "id": "29",
+          "guid": "8b892a9b-0c81-4a6d-9733-5a5aa68e8564",
+          "deleted": true,
+          "heading": "System life cycle sustainment requirements",
+          "helpRef": "9.5.16",
+          "type": "SEC",
+          "history": [
+            {
+              "attributesChanged": {
+                "deleted": null
+              },
+              "changedBy": {
+                "company": "",
+                "email": "omar.elnily@ejust.edu.eg",
+                "name": "Omar Elnily"
+              },
+              "changedOn": "2024-01-03T19:02:22.661Z"
+            }
+          ]
+        },
+        {
+          "id": "30",
+          "guid": "a7d6ce6a-ac1a-4358-881e-9e76ff0693ae",
+          "deleted": true,
+          "heading": "Packaging,  handling,  shipping and  transportation requirements",
+          "helpRef": "9.5.17",
+          "type": "SEC",
+          "history": [
+            {
+              "attributesChanged": {
+                "deleted": null
+              },
+              "changedBy": {
+                "company": "",
+                "email": "omar.elnily@ejust.edu.eg",
+                "name": "Omar Elnily"
+              },
+              "changedOn": "2024-01-03T19:02:24.388Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "31",
+      "guid": "a7a3b60b-e86d-4151-88d7-eafeb99671f2",
+      "deleted": true,
+      "heading": "Verification",
+      "helpRef": "9.5.18",
+      "type": "SEC",
+      "history": [
+        {
+          "attributesChanged": {
+            "deleted": null
+          },
+          "changedBy": {
+            "company": "",
+            "email": "omar.elnily@ejust.edu.eg",
+            "name": "Omar Elnily"
+          },
+          "changedOn": "2024-01-03T19:02:26.576Z"
+        }
+      ]
+    },
+    {
+      "id": "32",
+      "guid": "619a283c-fc20-45b0-97e7-9147677ca8c3",
+      "deleted": true,
+      "heading": "References",
+      "helpRef": "9.2.4",
+      "type": "SEC",
+      "history": [
+        {
+          "attributesChanged": {
+            "deleted": null
+          },
+          "changedBy": {
+            "company": "",
+            "email": "omar.elnily@ejust.edu.eg",
+            "name": "Omar Elnily"
+          },
+          "changedOn": "2024-01-03T19:02:31.896Z"
+        }
+      ]
+    }
+  ],
+  "attributes": {
+    "difficulty": {
+      "name": "Difficulty",
+      "type": "enum",
+      "values": [
+        {
+          "key": "E",
+          "label": "Easy"
+        },
+        {
+          "key": "N",
+          "label": "Nominal"
+        },
+        {
+          "key": "D",
+          "label": "Difficult"
+        }
+      ]
+    },
+    "owner": {
+      "name": "Owner",
+      "type": "string"
+    },
+    "priority": {
+      "name": "Priority",
+      "type": "enum",
+      "values": [
+        {
+          "key": "L",
+          "label": "Low"
+        },
+        {
+          "key": "M",
+          "label": "Medium"
+        },
+        {
+          "key": "H",
+          "label": "High"
+        }
+      ]
+    },
+    "rationale": {
+      "name": "Rationale",
+      "type": "xhtml"
+    },
+    "source": {
+      "name": "Source",
+      "type": "string"
+    },
+    "status": {
+      "name": "Status",
+      "type": "enum",
+      "values": [
+        {
+          "key": "Draft"
+        },
+        {
+          "key": "Ready"
+        },
+        {
+          "key": "Reviewed"
+        },
+        {
+          "key": "Approved"
+        },
+        {
+          "key": "Released"
+        }
+      ]
+    },
+    "type": {
+      "name": "Type",
+      "type": "enum",
+      "values": [
+        {
+          "key": "FR",
+          "label": "Functional Requirement"
+        },
+        {
+          "key": "INT",
+          "label": "Interface Requirement"
+        },
+        {
+          "key": "NFR",
+          "label": "Non-func. Requirement"
+        },
+        {
+          "key": "SEC",
+          "label": "Section"
+        },
+        {
+          "key": "INF",
+          "label": "Information"
+        }
+      ]
+    },
+    "verMethod": {
+      "name": "Ver. Method",
+      "type": "enum",
+      "values": [
+        {
+          "key": "T",
+          "label": "Test"
+        },
+        {
+          "key": "D",
+          "label": "Demonstration"
+        },
+        {
+          "key": "I",
+          "label": "Inspection"
+        },
+        {
+          "key": "A",
+          "label": "Analysis"
+        }
+      ]
+    }
+  },
+  "templateColumns": {
+  },
+  "views": {
+    "Primary": {
+      "columns": [
+        {
+          "columnId": "id",
+          "width": 77
+        },
+        {
+          "columnId": "type",
+          "width": 97
+        },
+        {
+          "columnId": "description",
+          "width": 372
+        },
+        {
+          "columnId": "source",
+          "width": 150
+        },
+        {
+          "columnId": "rationale",
+          "width": 150
+        },
+        {
+          "columnId": "priority",
+          "width": 96
+        },
+        {
+          "columnId": "status",
+          "width": 86
+        },
+        {
+          "columnId": "verMethod",
+          "width": 105
+        }
+      ],
+      "default": true
+    }
+  },
+  "metadata": {
+    "format": "2.17"
+  }
+}

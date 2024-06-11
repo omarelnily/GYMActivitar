@@ -1,0 +1,16 @@
+{
+  "id": "Gym Management System",
+  "description": "CNC",
+  "documents": [
+    "BRS.json",
+    "OpsCon.json",
+    "StRS.json",
+    "SyRS.json"
+  ],
+  "traceability": {
+  },
+  "metadata": {
+    "format": "2.17",
+    "saveHistory": true
+  }
+}

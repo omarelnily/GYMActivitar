@@ -1,0 +1,632 @@
+{
+  "id": "StRS",
+  "guid": "ad8005ef-47a0-4a8c-a71e-e7102ea9bf0b",
+  "name": "Stakeholder Requirements Specification",
+  "lastId": 25,
+  "createdOn": "2023-12-31T09:00:29.396Z",
+  "createdBy": {
+    "name": "Omar Elnily",
+    "email": "omar.elnily@ejust.edu.eg",
+    "company": ""
+  },
+  "lastChangedOn": "2024-01-03T19:03:11.849Z",
+  "lastChangedBy": {
+    "name": "Omar Elnily",
+    "email": "omar.elnily@ejust.edu.eg",
+    "company": ""
+  },
+  "helpRef": "ISO/IEC/IEEE 29148:2018",
+  "data": [
+    {
+      "id": "1",
+      "guid": "03ff25ad-37a0-4596-b7a5-80c0ba12b40b",
+      "heading": "Introduction",
+      "helpRef": "8.3.1",
+      "type": "SEC",
+      "children": [
+        {
+          "id": "2",
+          "guid": "91be0182-df7b-4766-963a-d3af5bf6dde7",
+          "deleted": true,
+          "heading": "Stakeholder purpose",
+          "helpRef": "9.4.2",
+          "type": "SEC",
+          "history": [
+            {
+              "attributesChanged": {
+                "deleted": null
+              },
+              "changedBy": {
+                "company": "",
+                "email": "omar.elnily@ejust.edu.eg",
+                "name": "Omar Elnily"
+              },
+              "changedOn": "2024-01-03T19:03:10.273Z"
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "guid": "64f5c7fa-eddf-45ea-926a-dd796f30b9ab",
+          "deleted": true,
+          "heading": "Stakeholder scope",
+          "helpRef": "9.4.3",
+          "type": "SEC",
+          "history": [
+            {
+              "attributesChanged": {
+                "deleted": null
+              },
+              "changedBy": {
+                "company": "",
+                "email": "omar.elnily@ejust.edu.eg",
+                "name": "Omar Elnily"
+              },
+              "changedOn": "2024-01-03T19:03:11.849Z"
+            }
+          ]
+        },
+        {
+          "id": "4",
+          "guid": "8a3f1a17-45fd-411e-8008-50299d64be79",
+          "heading": "Overview",
+          "text": "<p style=\"text-align: start;\"><strong>Major Internal Divisions:</strong></p><ol style=\"text-align: start;\"><li><strong>Gym Operations:</strong> Manages day-to-day activities within the fitness facility.</li><li><strong>Personal Training:</strong> Offers personalized training sessions with certified trainers.</li><li><strong>Classes and Workshops:</strong> Conducts various fitness classes, workshops, and events.</li><li><strong>Membership Services:</strong> Handles membership registration, renewals, and additional services.</li><li><strong>Nutrition Programs:</strong> Provides nutritional guidance and wellness programs.</li><li><strong>Merchandise Sales:</strong> Retail operations for fitness-related merchandise and products.</li><li><strong>Technology Division:</strong> Manages technology integration, online platforms, and system development.</li><li><strong>Administrative Unit:</strong> Takes care of administrative tasks, payroll, and employee management.</li></ol><p style=\"text-align: start;\"><strong>External Entities:</strong></p><ol style=\"text-align: start;\"><li><strong>Members:</strong> Individuals engaging in fitness activities.</li><li><strong>Trainers and Staff:</strong> Certified trainers, administrative staff, and other employees.</li><li><strong>Suppliers:</strong> Providers of fitness equipment, merchandise, and nutritional products.</li><li><strong>Certification Bodies:</strong> Entities certifying trainers and ensuring industry standards.</li><li><strong>Regulatory Bodies:</strong> Government or industry-specific bodies overseeing compliance.</li></ol><p style=\"text-align: start;\"><strong>Interrelationships:</strong></p><ul style=\"text-align: start;\"><li>Members interact with Gym Operations, Personal Training, Classes, and Merchandise Sales.</li><li>Trainers and Staff collaborate with all internal divisions for smooth operations.</li><li>Suppliers are linked to Merchandise Sales and Gym Operations for inventory and equipment.</li><li>Certification Bodies interact with Trainers to ensure industry standards.</li><li>Regulatory Bodies oversee compliance across all internal divisions.</li></ul>",
+          "helpRef": "9.4.4",
+          "type": "SEC",
+          "history": [
+            {
+              "attributesChanged": {
+                "text": null
+              },
+              "changedBy": {
+                "company": "",
+                "email": "omar.elnily@ejust.edu.eg",
+                "name": "Omar Elnily"
+              },
+              "changedOn": "2023-12-31T13:03:42.063Z"
+            }
+          ]
+        },
+        {
+          "id": "5",
+          "guid": "18e169dc-e3d2-44d7-83c5-d4e965eccf0c",
+          "heading": "Stakeholders",
+          "text": "<ol style=\"text-align: start;\"><li><p><strong>Members:</strong></p><ul><li><em>Influence:</em> Members are the primary users of the system, influencing the daily operations through participation, feedback, and utilization of services.</li><li><em>Relation to System:</em> Members engage with the system for class bookings, membership management, and accessing personalized fitness plans.</li></ul></li><li><p><strong>Trainers and Staff:</strong></p><ul><li><em>Influence:</em> Trainers and staff play a crucial role in delivering fitness services and managing daily operations.</li><li><em>Relation to System:</em> They interact with the system for scheduling, attendance tracking, and accessing member profiles.</li></ul></li><li><p><strong>Administrators and Managers:</strong></p><ul><li><em>Influence:</em> Administrators and managers influence strategic decisions, business policies, and overall system functionality.</li><li><em>Relation to System:</em> They use the system for monitoring performance, generating reports, and making informed decisions.</li></ul></li><li><p><strong>Technology Team:</strong></p><ul><li><em>Influence:</em> The technology team shapes the system's architecture, development, and ensures technological alignment with business goals.</li><li><em>Relation to System:</em> They are responsible for system development, maintenance, and integration with other technologies.</li></ul></li><li><p><strong>Marketing Team:</strong></p><ul><li><em>Influence:</em> The marketing team influences business growth, member acquisition, and promotional activities.</li><li><em>Relation to System:</em> They may use the system to analyze member trends, plan marketing campaigns, and track campaign effectiveness.</li></ul></li><li><p><strong>Suppliers:</strong></p><ul><li><em>Influence:</em> Suppliers influence the availability and quality of fitness equipment, merchandise, and nutritional products.</li><li><em>Relation to System:</em> The system may facilitate order placements, inventory management, and communication with suppliers.</li></ul></li><li><p><strong>Regulatory Authorities:</strong></p><ul><li><em>Influence:</em> Regulatory authorities ensure legal compliance, safety standards, and adherence to industry regulations.</li><li><em>Relation to System:</em> The system may generate reports and documentation to demonstrate compliance.</li></ul></li><li><p><strong>Memberships and Finance Team:</strong></p><ul><li><em>Influence:</em> The memberships and finance team influences revenue generation, pricing strategies, and financial planning.</li><li><em>Relation to System:</em> They use the system for financial transactions, membership billing, and financial reporting.</li></ul></li><li><p><strong>Wellness and Nutrition Team:</strong></p><ul><li><em>Influence:</em> The wellness and nutrition team influence the design and delivery of nutrition programs and wellness initiatives.</li><li><em>Relation to System:</em> They may use the system for planning, tracking, and evaluating the effectiveness of wellness programs.</li></ul></li></ol>",
+          "helpRef": "9.4.5",
+          "type": "SEC",
+          "history": [
+            {
+              "attributesChanged": {
+                "text": null
+              },
+              "changedBy": {
+                "company": "",
+                "email": "omar.elnily@ejust.edu.eg",
+                "name": "Omar Elnily"
+              },
+              "changedOn": "2023-12-31T13:04:02.686Z"
+            }
+          ]
+        },
+        {
+          "id": "6",
+          "guid": "fa3a4498-36e1-4b0f-b6fc-678c9e81a04c",
+          "heading": "Definitions",
+          "text": "<ol style=\"text-align: start;\"><li><p><strong>Gym Management System:</strong></p><ul><li><em>Definition:</em> A comprehensive software solution designed to streamline and automate various aspects of gym operations, including member management, class scheduling, attendance tracking, and financial transactions.</li></ul></li><li><p><strong>Member:</strong></p><ul><li><em>Definition:</em> An individual who has registered with the gym, holding a valid membership, and has access to gym facilities and services.</li></ul></li><li><p><strong>Membership Type:</strong></p><ul><li><em>Definition:</em> A categorization of memberships based on duration, privileges, and services offered, such as monthly, yearly, or premium memberships.</li></ul></li><li><p><strong>Attendance Tracking:</strong></p><ul><li><em>Definition:</em> The process of recording and monitoring members' entry and exit times to the gym, often used for compliance, security, and member engagement.</li></ul></li><li><p><strong>Trainer:</strong></p><ul><li><em>Definition:</em> A certified fitness professional employed by the gym to provide training sessions, fitness plans, and guidance to members.</li></ul></li><li><p><strong>Exercise Plan:</strong></p><ul><li><em>Definition:</em> A customized plan created for a member by a trainer, outlining specific exercises, duration, and intensity to help the member achieve fitness goals.</li></ul></li><li><p><strong>Workout Log:</strong></p><ul><li><em>Definition:</em> A record maintained by members to log details of their workout sessions, including exercises performed, sets, reps, and weights used.</li></ul></li><li><p><strong>Class Schedule:</strong></p><ul><li><em>Definition:</em> A timetable that outlines the timing, duration, and type of fitness classes offered by the gym, including details about instructors and available slots.</li></ul></li><li><p><strong>Payment Transactions:</strong></p><ul><li><em>Definition:</em> Financial transactions related to membership fees, personal training sessions, and other services offered by the gym.</li></ul></li><li><p><strong>Messaging System:</strong></p><ul><li><em>Definition:</em> A communication platform within the gym management system, facilitating interaction between members, trainers, and administrators.</li></ul></li></ol>",
+          "helpRef": "9.2.3",
+          "type": "SEC",
+          "history": [
+            {
+              "attributesChanged": {
+                "text": null
+              },
+              "changedBy": {
+                "company": "",
+                "email": "omar.elnily@ejust.edu.eg",
+                "name": "Omar Elnily"
+              },
+              "changedOn": "2023-12-31T13:04:36.091Z"
+            }
+          ]
+        },
+        {
+          "id": "7",
+          "guid": "e38ac1b2-e916-488b-93cb-eff3f5b39383",
+          "heading": "Acronyms and abbreviations",
+          "text": "<ol style=\"text-align: start;\"><li><p><strong>GMS:</strong> Gym Management System</p><ul><li><em>Definition:</em> A comprehensive software solution designed to streamline and automate various aspects of gym operations, including member management, class scheduling, attendance tracking, and financial transactions.</li></ul></li><li><p><strong>CRUD:</strong> Create, Read, Update, Delete</p><ul><li><em>Definition:</em> A set of basic operations performed on data, commonly used in database and application development.</li></ul></li><li><p><strong>API:</strong> Application Programming Interface</p><ul><li><em>Definition:</em> A set of protocols and tools for building software applications, allowing them to communicate with each other.</li></ul></li><li><p><strong>UI:</strong> User Interface</p><ul><li><em>Definition:</em> The visual elements and controls through which users interact with a software application.</li></ul></li><li><p><strong>UX:</strong> User Experience</p><ul><li><em>Definition:</em> The overall experience a user has with a software application, including usability, accessibility, and satisfaction.</li></ul></li><li><p><strong>SQL:</strong> Structured Query Language</p><ul><li><em>Definition:</em> A domain-specific language used for managing and manipulating relational databases.</li></ul></li><li><p><strong>HTML:</strong> Hypertext Markup Language</p><ul><li><em>Definition:</em> The standard markup language for creating web pages and web applications.</li></ul></li><li><p><strong>CSS:</strong> Cascading Style Sheets</p><ul><li><em>Definition:</em> A style sheet language used for describing the presentation of a document written in HTML or XML.</li></ul></li><li><p><strong>JS:</strong> JavaScript</p><ul><li><em>Definition:</em> A programming language that enables interactive web pages and is essential for front-end web development.</li></ul></li><li><p><strong>MVC:</strong> Model-View-Controller</p><ul><li><em>Definition:</em> A software design pattern for developing web applications, dividing the application into three interconnected components: Model, View, and Controller.</li></ul></li></ol>",
+          "helpRef": "9.2.5",
+          "type": "SEC",
+          "history": [
+            {
+              "attributesChanged": {
+                "text": null
+              },
+              "changedBy": {
+                "company": "",
+                "email": "omar.elnily@ejust.edu.eg",
+                "name": "Omar Elnily"
+              },
+              "changedOn": "2023-12-31T13:04:54.189Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "guid": "81f0b830-741d-4909-bf26-3c268406386d",
+      "heading": "Business management requirements",
+      "type": "SEC",
+      "children": [
+        {
+          "id": "9",
+          "guid": "2c30965d-ec0d-48c6-b0f2-c783efdec432",
+          "heading": "Business environment",
+          "text": "<p style=\"text-align: start;\">The business environment encompasses a variety of external and internal factors that significantly influence the development or modification of the system. Key considerations include:</p><ul><li><p><strong>Market Trends:</strong></p><ul><li><em>Definition:</em> Market trends refer to the prevailing dynamics, preferences, and shifts in the fitness and wellness industry.</li><li><em>Considerations:</em> Monitoring consumer preferences, emerging workout trends, and technological advancements (e.g., fitness apps, wearable devices) that influence how people engage with fitness activities.</li></ul></li><li><p><strong>Laws and Regulations:</strong></p><ul><li><em>Definition:</em> Laws and regulations pertain to the legal framework governing the fitness and wellness industry, ensuring compliance and ethical practices.</li><li><em>Considerations:</em> Adhering to health and safety regulations, data protection laws, and any specific industry regulations that impact the operation and management of fitness facilities.</li></ul></li><li><p><strong>Social Responsibilities:</strong></p><ul><li><em>Definition:</em> Social responsibilities involve the ethical obligations of the gym towards its members, employees, and the community at large.</li><li><em>Considerations:</em> Promoting inclusivity, diversity, and a sense of community within the gym, as well as engaging in initiatives that contribute positively to the well-being of the broader society.</li></ul></li><li><p><strong>Technology Base:</strong></p><ul><li><em>Definition:</em> The technology base encompasses the tools, platforms, and digital infrastructure that underpin the operations and services of the gym.</li><li><em>Considerations:</em> Embracing technological advancements, integrating digital solutions for member engagement, and ensuring the compatibility of the Gym Management System with current and future technological landscapes.</li></ul></li><li><p><strong>Competitive Landscape:</strong></p><ul><li><em>Definition:</em> The competitive landscape involves the analysis of other entities offering similar fitness and wellness services.</li><li><em>Considerations:</em> Understanding competitors' offerings, identifying unique value propositions, and anticipating changes in the competitive landscape to stay ahead in the market.</li></ul></li><li><p><strong>Economic Factors:</strong></p><ul><li><em>Definition:</em> Economic factors encompass the financial conditions and economic trends that can impact the gym's financial viability.</li><li><em>Considerations:</em> Assessing economic indicators, such as disposable income trends, unemployment rates, and economic stability, to anticipate potential impacts on membership numbers and spending habits.</li></ul></li><li><p><strong>Demographic Shifts:</strong></p><ul><li><em>Definition:</em> Demographic shifts refer to changes in the composition of the population, including age, gender, and lifestyle.</li><li><em>Considerations:</em> Tailoring gym services to accommodate diverse demographics, recognizing and adapting to changes in the target audience's preferences and needs.</li></ul></li></ul>",
+          "helpRef": "9.4.6",
+          "type": "SEC",
+          "history": [
+            {
+              "attributesChanged": {
+                "text": null
+              },
+              "changedBy": {
+                "company": "",
+                "email": "omar.elnily@ejust.edu.eg",
+                "name": "Omar Elnily"
+              },
+              "changedOn": "2023-12-31T13:07:22.501Z"
+            }
+          ]
+        },
+        {
+          "id": "10",
+          "guid": "9d3a6dfe-956e-4586-87aa-f87b3217f564",
+          "heading": "Mission, goals and objectives",
+          "text": "<p style=\"text-align: start;\">are aligned with achieving specific business outcomes. These include:</p><ul style=\"text-align: start;\"><li><p><strong>Mission:</strong> To provide a comprehensive and efficient platform for managing gym operations, enhancing user experiences, and promoting a healthy lifestyle.</p></li><li><p><strong>Goal:</strong> To streamline administrative processes, improve member engagement, and optimize resource utilization within the gym facility.</p></li><li><p><strong>Objectives:</strong></p><ul><li>Increase membership retention by a certain percentage.</li><li>Enhance user satisfaction through improved services and facilities.</li><li>Implement cost-effective practices in gym management.</li></ul></li></ul>",
+          "helpRef": "9.4.7",
+          "type": "SEC",
+          "history": [
+            {
+              "attributesChanged": {
+                "text": null
+              },
+              "changedBy": {
+                "company": "",
+                "email": "omar.elnily@ejust.edu.eg",
+                "name": "Omar Elnily"
+              },
+              "changedOn": "2023-12-31T13:07:37.864Z"
+            }
+          ]
+        },
+        {
+          "id": "11",
+          "guid": "9fd522cf-2795-4438-a04a-42c7f5efcd05",
+          "heading": "Business model",
+          "text": "<p style=\"text-align: start;\">IS a strategies to achieve the defined goals. Focus areas include:</p><ul style=\"text-align: start;\"><li><p><strong>Products and Services:</strong> Offering a range of services such as membership management, class scheduling, personal training, and facilities management.</p></li><li><p><strong>Geographies and Locales:</strong> Tailoring services to meet the specific needs and preferences of the local community and potentially expanding to new geographic locations.</p></li><li><p><strong>Distribution Channels:</strong> Utilizing online platforms, mobile applications, and in-person interactions for member enrollment, communication, and service delivery.</p></li><li><p><strong>Business Alliances and Partnerships:</strong> Exploring collaborations with fitness professionals, health experts, and local businesses to enhance the overall fitness ecosystem.</p></li><li><p><strong>Finance and Revenue Model:</strong> Implementing a sustainable revenue model through membership fees, additional services, partnerships, and possibly retail sales.</p></li></ul>",
+          "helpRef": "9.4.8",
+          "type": "SEC",
+          "history": [
+            {
+              "attributesChanged": {
+                "text": null
+              },
+              "changedBy": {
+                "company": "",
+                "email": "omar.elnily@ejust.edu.eg",
+                "name": "Omar Elnily"
+              },
+              "changedOn": "2023-12-31T13:07:57.326Z"
+            }
+          ]
+        },
+        {
+          "id": "12",
+          "guid": "a4f3fe10-fe83-42ea-a966-44afe5dcad36",
+          "heading": "Information environment",
+          "text": "<p style=\"text-align: start;\">The information environment strategy at the organizational level involves:</p><ul style=\"text-align: start;\"><li><p><strong>Project Portfolio:</strong> Prioritizing and managing multiple projects that contribute to the overarching business goal of the gym, ensuring synergy and avoiding conflicts.</p></li><li><p><strong>Long-Term System Plan:</strong> Establishing a coherent and adaptable system infrastructure or architecture to accommodate future technological advancements and changes in business requirements.</p></li><li><p><strong>Database Configuration:</strong> Designing and configuring databases at an organizational level, ensuring secure, available, and accessible global data for informed decision-making and system functionalities.</p></li></ul>",
+          "helpRef": "9.4.9",
+          "type": "SEC",
+          "history": [
+            {
+              "attributesChanged": {
+                "text": null
+              },
+              "changedBy": {
+                "company": "",
+                "email": "omar.elnily@ejust.edu.eg",
+                "name": "Omar Elnily"
+              },
+              "changedOn": "2023-12-31T13:08:10.380Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "13",
+      "guid": "a062c082-4ab7-4bc8-bae1-459712fdb4d6",
+      "heading": "System operational requirements",
+      "type": "SEC",
+      "children": [
+        {
+          "id": "14",
+          "guid": "d62f51aa-8039-4bbc-a3ff-ffe480bd8398",
+          "heading": "System processes",
+          "text": "<p style=\"text-align: start;\"><em>Introduction:</em></p><p style=\"text-align: start;\">outline the procedures involved in managing gym operations, member interactions, and administrative tasks. The purpose is to depict how the system supports these activities, fostering a clear understanding of the interactions between users and the system. The processes are organized hierarchically, providing a structured view of the system's functionality.</p><p style=\"text-align: start;\"><strong>B1: Membership Registration Process</strong></p><ul style=\"text-align: start;\"><li><strong>Description:</strong> This process involves the registration of new members. It includes capturing personal information, health assessments, and membership plan selection.</li><li><strong>System Interfaces:</strong> User registration module, membership database.</li></ul><p style=\"text-align: start;\"><strong>B2: Class Booking Process</strong></p><ul style=\"text-align: start;\"><li><strong>Description:</strong> Members can book fitness classes through the system, selecting specific times and instructors.</li><li><strong>System Interfaces:</strong> Class scheduling module, member dashboard.</li></ul><p style=\"text-align: start;\"><strong>B3: Personal Training Request Process</strong></p><ul style=\"text-align: start;\"><li><strong>Description:</strong> Members can request personal training sessions. Trainers receive notifications and can accept or propose alternative schedules.</li><li><strong>System Interfaces:</strong> Personal training module, trainer dashboard.</li></ul><p style=\"text-align: start;\"><strong>B4: Attendance Tracking Process</strong></p><ul style=\"text-align: start;\"><li><strong>Description:</strong> The system tracks member attendance for classes and training sessions, updating records in real-time.</li><li><strong>System Interfaces:</strong> Attendance tracking module, member and trainer dashboards.</li></ul><p style=\"text-align: start;\"><strong>B5: Inventory Management Process</strong></p><ul style=\"text-align: start;\"><li><strong>Description:</strong> Manages the gym's inventory, including merchandise and supplements. Tracks stock levels and generates reorder alerts.</li><li><strong>System Interfaces:</strong> Inventory management module, admin dashboard.</li></ul><p style=\"text-align: start;\"><strong>B6: Feedback and Reviews Process</strong></p><ul style=\"text-align: start;\"><li><strong>Description:</strong> Members can provide feedback and reviews on trainers, classes, and the overall gym experience.</li><li><strong>System Interfaces:</strong> Feedback module, member dashboard.</li></ul><p style=\"text-align: start;\"><strong>B7: Messaging and Notification Process</strong></p><ul style=\"text-align: start;\"><li><strong>Description:</strong> Facilitates communication between members, trainers, and administrators through messaging and notifications.</li><li><strong>System Interfaces:</strong> Messaging system, notification module.</li></ul><p style=\"text-align: start;\"><strong>B8: Security and Access Control Process</strong></p><ul style=\"text-align: start;\"><li><strong>Description:</strong> Manages security features, access controls, and audit logs to ensure data integrity and user privacy.</li><li><strong>System Interfaces:</strong> Security module, access control settings.</li></ul><p style=\"text-align: start;\"><strong>B9: Reporting and Analytics Process</strong></p><ul style=\"text-align: start;\"><li><strong>Description:</strong> Generates reports and analytics for business intelligence purposes, providing insights into gym performance.</li><li><strong>System Interfaces:</strong> Reporting module, analytics dashboard.</li></ul><p style=\"text-align: start;\"><strong>Purpose and Benefits:</strong></p><ul style=\"text-align: start;\"><li><strong>Clarity:</strong> Clear representation of how the system supports key business activities.</li><li><strong>Alignment:</strong> Ensures alignment between system functionalities and business objectives.</li><li><strong>Communication:</strong> Facilitates effective communication among stakeholders.</li><li><strong>Design Blueprint:</strong> Serves as a foundational blueprint for system design and development.</li></ul>",
+          "helpRef": "9.4.10",
+          "type": "SEC",
+          "history": [
+            {
+              "attributesChanged": {
+                "text": null
+              },
+              "changedBy": {
+                "company": "",
+                "email": "omar.elnily@ejust.edu.eg",
+                "name": "Omar Elnily"
+              },
+              "changedOn": "2023-12-31T13:08:45.554Z"
+            }
+          ]
+        },
+        {
+          "id": "15",
+          "guid": "b4211ca6-8fd9-45f6-8673-1fd337fe3c3e",
+          "heading": "System operational policies and rules",
+          "text": "<p style=\"text-align: start;\"><em>Introduction:</em></p><p style=\"text-align: start;\">rules for the Gym Management System establish logical propositions governing the execution of business processes. These propositions guide the initiation, branching, and termination of activities within processes. Additionally, they define criteria for judgment and formulas for evaluating quantities, contributing to the functional requirements in the System Requirements Specification (SRS) and System Design Specification (SyRS).</p><p style=\"text-align: start;\"><strong>P&amp;R1: Membership Approval Criteria</strong></p><ul style=\"text-align: start;\"><li><strong>Description:</strong> Defines criteria for approving or rejecting membership applications based on health assessments and eligibility criteria.</li><li><strong>Applicable Processes:</strong> Membership Registration Process (B1).</li><li><strong>Rule Number:</strong> PR1.</li></ul><p style=\"text-align: start;\"><strong>P&amp;R2: Class Cancellation Policy</strong></p><ul style=\"text-align: start;\"><li><strong>Description:</strong> Specifies conditions for canceling fitness classes, including minimum attendance requirements and notice periods.</li><li><strong>Applicable Processes:</strong> Class Booking Process (B2).</li><li><strong>Rule Number:</strong> PR2.</li></ul><p style=\"text-align: start;\"><strong>P&amp;R3: Personal Training Session Confirmation</strong></p><ul style=\"text-align: start;\"><li><strong>Description:</strong> Establishes rules for confirming personal training sessions, including member confirmation and trainer availability.</li><li><strong>Applicable Processes:</strong> Personal Training Request Process (B3).</li><li><strong>Rule Number:</strong> PR3.</li></ul><p style=\"text-align: start;\"><strong>P&amp;R4: Attendance Recording Criteria</strong></p><ul style=\"text-align: start;\"><li><strong>Description:</strong> Defines criteria for recording member attendance, considering check-in procedures and session completion.</li><li><strong>Applicable Processes:</strong> Attendance Tracking Process (B4).</li><li><strong>Rule Number:</strong> PR4.</li></ul><p style=\"text-align: start;\"><strong>P&amp;R5: Inventory Reorder Formula</strong></p><ul style=\"text-align: start;\"><li><strong>Description:</strong> Specifies the formula for triggering inventory reorder alerts based on stock levels and demand patterns.</li><li><strong>Applicable Processes:</strong> Inventory Management Process (B5).</li><li><strong>Rule Number:</strong> PR5.</li></ul><p style=\"text-align: start;\"><strong>P&amp;R6: Feedback Moderation Criteria</strong></p><ul style=\"text-align: start;\"><li><strong>Description:</strong> Outlines criteria for moderating and publishing member feedback, ensuring compliance with community guidelines.</li><li><strong>Applicable Processes:</strong> Feedback and Reviews Process (B6).</li><li><strong>Rule Number:</strong> PR6.</li></ul><p style=\"text-align: start;\"><strong>P&amp;R7: Notification Prioritization Criteria</strong></p><ul style=\"text-align: start;\"><li><strong>Description:</strong> Defines criteria for prioritizing and delivering notifications to members and trainers based on urgency and relevance.</li><li><strong>Applicable Processes:</strong> Messaging and Notification Process (B7).</li><li><strong>Rule Number:</strong> PR7.</li></ul><p style=\"text-align: start;\"><strong>P&amp;R8: Access Control Policy</strong></p><ul style=\"text-align: start;\"><li><strong>Description:</strong> Specifies access control policies, including user roles, permissions, and restrictions on sensitive data.</li><li><strong>Applicable Processes:</strong> Security and Access Control Process (B8).</li><li><strong>Rule Number:</strong> PR8.</li></ul><p style=\"text-align: start;\"><strong>P&amp;R9: Reporting Accuracy Criteria</strong></p><ul style=\"text-align: start;\"><li><strong>Description:</strong> Defines criteria for ensuring the accuracy and reliability of generated reports and analytics.</li><li><strong>Applicable Processes:</strong> Reporting and Analytics Process (B9).</li><li><strong>Rule Number:</strong> PR9.</li></ul><p style=\"text-align: start;\"><strong>Benefits and Significance:</strong></p><ul style=\"text-align: start;\"><li><strong>Consistency:</strong> Ensures consistent and logical execution of business processes.</li><li><strong>Compliance:</strong> Guides adherence to organizational policies and industry standards.</li><li><strong>Functional Requirements:</strong> Provides foundational information for developing detailed functional requirements.</li><li><strong>Traceability:</strong> Enables easy referencing and traceability between rules and corresponding business processes.</li></ul>",
+          "helpRef": "9.4.11",
+          "type": "SEC",
+          "history": [
+            {
+              "attributesChanged": {
+                "text": null
+              },
+              "changedBy": {
+                "company": "",
+                "email": "omar.elnily@ejust.edu.eg",
+                "name": "Omar Elnily"
+              },
+              "changedOn": "2023-12-31T13:09:18.329Z"
+            }
+          ]
+        },
+        {
+          "id": "16",
+          "guid": "efaad59a-6a46-4491-8df2-c20d1dae7d93",
+          "heading": "Operational constraints",
+          "text": "<p style=\"text-align: start;\"><em>Introduction:</em></p><p style=\"text-align: start;\">Define conditions that must be adhered to during the execution of business processes. These constraints may include performance limitations, temporal requirements, and management imperatives that influence how processes are conducted. Clear identification of operational constraints ensures that the system operates within specified boundaries, meeting performance expectations and aligning with management directives.</p><p style=\"text-align: start;\"><strong>Constraint 1: Maximum Class Duration</strong></p><ul style=\"text-align: start;\"><li><strong>Description:</strong> The fitness class processes (B2) shall be constrained by a maximum duration of 90 minutes. Any class exceeding this duration requires explicit approval and justification.</li><li><strong>Applicable Processes:</strong> Class Booking Process (B2).</li><li><strong>Constraint Number:</strong> OC1.</li></ul><p style=\"text-align: start;\"><strong>Constraint 2: Daily System Backup</strong></p><ul style=\"text-align: start;\"><li><strong>Description:</strong> A daily backup of the system database (B8) shall be conducted within the system's non-operational hours (e.g., 2:00 AM to 4:00 AM).</li><li><strong>Applicable Processes:</strong> Security and Access Control Process (B8).</li><li><strong>Constraint Number:</strong> OC2.</li></ul><p style=\"text-align: start;\"><strong>Constraint 3: Immediate Incident Reporting</strong></p><ul style=\"text-align: start;\"><li><strong>Description:</strong> In the event of a security breach or system malfunction (B8), every occurrence shall be reported to the designated administrator within one hour of detection.</li><li><strong>Applicable Processes:</strong> Security and Access Control Process (B8).</li><li><strong>Constraint Number:</strong> OC3.</li></ul><p style=\"text-align: start;\"><strong>Constraint 4: Class Cancellation Notice</strong></p><ul style=\"text-align: start;\"><li><strong>Description:</strong> Members (B2) must be notified of class cancellations at least 24 hours in advance. Exceptions require management approval.</li><li><strong>Applicable Processes:</strong> Class Booking Process (B2).</li><li><strong>Constraint Number:</strong> OC4.</li></ul><p style=\"text-align: start;\"><strong>Constraint 5: Emergency Response Time</strong></p><ul style=\"text-align: start;\"><li><strong>Description:</strong> In case of emergency situations (e.g., accidents or injuries during classes), the response time for staff to reach the affected area shall not exceed five minutes.</li><li><strong>Applicable Processes:</strong> Emergency Response Process (B10).</li><li><strong>Constraint Number:</strong> OC5.</li></ul><p style=\"text-align: start;\"><strong>Constraint 6: Financial Transaction Recording</strong></p><ul style=\"text-align: start;\"><li><strong>Description:</strong> Every financial transaction (B11) within the system shall be recorded and stored securely. The recording process must be completed within one hour of the transaction.</li><li><strong>Applicable Processes:</strong> Financial Transactions Process (B11).</li><li><strong>Constraint Number:</strong> OC6.</li></ul><p style=\"text-align: start;\"><strong>Constraint 7: Real-time Inventory Updates</strong></p><ul style=\"text-align: start;\"><li><strong>Description:</strong> Inventory levels (B5) shall be updated in real-time, and any product reaching the minimum threshold triggers an immediate alert for reorder.</li><li><strong>Applicable Processes:</strong> Inventory Management Process (B5).</li><li><strong>Constraint Number:</strong> OC7.</li></ul><p style=\"text-align: start;\"><strong>Constraint 8: Member Data Privacy Compliance</strong></p><ul style=\"text-align: start;\"><li><strong>Description:</strong> Any handling or processing of member data (B1, B8) must comply with relevant data privacy laws and organizational policies.</li><li><strong>Applicable Processes:</strong> Membership Registration Process (B1), Security and Access Control Process (B8).</li><li><strong>Constraint Number:</strong> OC8.</li></ul><p style=\"text-align: start;\"><strong>Benefits and Significance:</strong></p><ul style=\"text-align: start;\"><li><strong>Performance Assurance:</strong> Ensures that business processes operate within defined performance boundaries.</li><li><strong>Temporal Guidelines:</strong> Specifies time-related requirements for critical processes.</li><li><strong>Compliance:</strong> Aligns operational practices with management requisites and legal requirements.</li><li><strong>Risk Mitigation:</strong> Reduces the risk of data breaches, system failures, and operational lapses.</li></ul>",
+          "helpRef": "9.4.12",
+          "type": "SEC",
+          "history": [
+            {
+              "attributesChanged": {
+                "text": null
+              },
+              "changedBy": {
+                "company": "",
+                "email": "omar.elnily@ejust.edu.eg",
+                "name": "Omar Elnily"
+              },
+              "changedOn": "2023-12-31T13:09:32.843Z"
+            }
+          ]
+        },
+        {
+          "id": "17",
+          "guid": "f6731265-91ad-483e-896e-023fe6767e72",
+          "heading": "System operational modes and states",
+          "text": "<p style=\"text-align: start;\"><em>Introduction:</em></p><p style=\"text-align: start;\">Outline strategies to navigate unsteady states, such as peak business periods or unexpected disruptions like accidents or natural disasters. These modes provide a framework for adapting business operations to ensure continuity, efficiency, and, when necessary, a manual operation mode in the absence of the system.</p><p style=\"text-align: start;\"><strong>Operation Mode 1: Peak Business Periods</strong></p><ul style=\"text-align: start;\"><li><strong>Description:</strong> During intensive occurrences of events, such as high demand for fitness classes or a surge in membership registrations (B2, B1), the system will adapt to handle increased loads efficiently.</li><li><strong>Activation Criteria:</strong> Triggered by a predefined threshold of concurrent system users or a surge in booking requests.</li><li><strong>Key Features:</strong><ul><li>Dynamic resource allocation to handle increased loads.</li><li>Priority scheduling for critical processes (e.g., class bookings, membership registrations).</li><li>Real-time performance monitoring to identify and address potential bottlenecks.</li></ul></li><li><strong>Transition Criteria:</strong> Returns to normal operation when the system load decreases to a predefined threshold.</li></ul><p style=\"text-align: start;\"><strong>Operation Mode 2: Manual Operation</strong></p><ul style=\"text-align: start;\"><li><strong>Description:</strong> In the event of system unavailability due to accidents, natural disasters, or technical failures, the business will switch to manual operation mode to ensure essential functions can continue.</li><li><strong>Activation Criteria:</strong> Triggered by system downtime exceeding a predefined duration or by a designated administrator.</li><li><strong>Key Features:</strong><ul><li>Manual recording and tracking of fitness class attendance and membership information.</li><li>Communication protocols for staff and members in the absence of automated notifications.</li><li>Temporary reliance on backup systems or paper-based records.</li></ul></li><li><strong>Transition Criteria:</strong> Resumes automated operation when the system is restored and validated.</li></ul><p style=\"text-align: start;\"><strong>Operation Mode 3: Emergency Response</strong></p><ul style=\"text-align: start;\"><li><strong>Description:</strong> Activated in response to emergencies (e.g., accidents or injuries during classes) requiring immediate attention and coordinated efforts.</li><li><strong>Activation Criteria:</strong> Triggered by an emergency alert or notification from staff or members.</li><li><strong>Key Features:</strong><ul><li>Immediate communication to relevant staff and emergency services.</li><li>Temporary suspension of non-essential processes to focus on emergency response.</li><li>Real-time tracking of emergency response team activities.</li></ul></li><li><strong>Transition Criteria:</strong> Shifts back to regular operation once the emergency situation is resolved and confirmed by designated authorities.</li></ul><p style=\"text-align: start;\"><strong>Operation Mode 4: Data Recovery and System Restoration</strong></p><ul style=\"text-align: start;\"><li><strong>Description:</strong> Implemented after a system failure or data loss event, focusing on recovering lost data and restoring system functionality.</li><li><strong>Activation Criteria:</strong> Triggered by detection of system failure or data loss.</li><li><strong>Key Features:</strong><ul><li>Initiation of data recovery protocols to retrieve lost information.</li><li>Comprehensive system diagnostics and troubleshooting.</li><li>Gradual restoration of system functionality and services.</li></ul></li><li><strong>Transition Criteria:</strong> Resumes normal operation once data recovery and system restoration are successfully completed.</li></ul><p style=\"text-align: start;\"><strong>Benefits and Significance:</strong></p><ul style=\"text-align: start;\"><li><strong>Business Continuity:</strong> Ensures seamless operation during peak periods and unexpected disruptions.</li><li><strong>Emergency Response:</strong> Facilitates swift and effective responses to emergencies.</li><li><strong>Manual Operation:</strong> Provides a contingency plan in the absence of automated systems.</li><li><strong>Data Recovery:</strong> Mitigates the impact of system failures by restoring lost data.</li></ul>",
+          "helpRef": "9.4.13",
+          "type": "SEC",
+          "history": [
+            {
+              "attributesChanged": {
+                "text": null
+              },
+              "changedBy": {
+                "company": "",
+                "email": "omar.elnily@ejust.edu.eg",
+                "name": "Omar Elnily"
+              },
+              "changedOn": "2023-12-31T13:09:50.295Z"
+            }
+          ]
+        },
+        {
+          "id": "18",
+          "guid": "5e3b0be2-b5fc-46cb-99e9-46a4103b8ce7",
+          "heading": "System operational quality",
+          "text": "<p style=\"text-align: start;\"><em>Introduction:</em></p><p style=\"text-align: start;\">Defines the expected level of quality in the execution of business processes. This involves setting priorities and criteria to ensure that the system operates at the desired standard, considering factors such as urgency, reliability, and overall performance.</p><p style=\"text-align: start;\"><strong>Quality Attribute 1: Urgency</strong></p><ul style=\"text-align: start;\"><li><strong>Definition:</strong> Urgency refers to the promptness and timeliness with which business processes are executed. In the context of the Gym Management System, certain activities may require immediate attention, and the system's responsiveness to these needs is crucial.</li><li><strong>Priority:</strong> High</li><li><strong>Criteria:</strong><ul><li>Real-time processing of urgent requests (e.g., emergency situations, sudden class cancellations).</li><li>Immediate notifications and alerts for time-sensitive information (e.g., schedule changes, membership renewals).</li><li>Fast-track handling of critical issues impacting member experience and safety.</li></ul></li></ul><p style=\"text-align: start;\"><strong>Quality Attribute 2: Reliability</strong></p><ul style=\"text-align: start;\"><li><strong>Definition:</strong> Reliability encompasses the consistency and dependability of the Gym Management System. It ensures that the system operates predictably and without unexpected disruptions, providing a stable environment for both users and administrators.</li><li><strong>Priority:</strong> Medium</li><li><strong>Criteria:</strong><ul><li>Minimization of system downtimes through robust error handling and fault tolerance mechanisms.</li><li>Regular system maintenance and updates to address potential vulnerabilities.</li><li>Reliable data storage and retrieval to prevent loss or corruption of critical information.</li></ul></li></ul><p style=\"text-align: start;\"><strong>Quality Attribute 3: Performance Efficiency</strong></p><ul style=\"text-align: start;\"><li><strong>Definition:</strong> Performance efficiency focuses on optimizing the use of system resources to deliver timely responses and maintain smooth operations, even during peak usage periods.</li><li><strong>Priority:</strong> High</li><li><strong>Criteria:</strong><ul><li>Efficient resource allocation to handle increased loads during peak business periods.</li><li>Quick response times for user interactions, such as booking fitness classes or accessing member information.</li><li>Continuous monitoring and optimization of system performance to ensure scalability.</li></ul></li></ul><p style=\"text-align: start;\"><strong>Quality Attribute 4: User Experience</strong></p><ul style=\"text-align: start;\"><li><strong>Definition:</strong> User experience reflects the overall satisfaction and ease of interaction for both members and staff using the Gym Management System. It considers the design, accessibility, and intuitiveness of the user interface.</li><li><strong>Priority:</strong> High</li><li><strong>Criteria:</strong><ul><li>Intuitive and user-friendly interfaces for seamless navigation.</li><li>Accessibility features to accommodate diverse user needs.</li><li>Regular user feedback mechanisms and updates based on user suggestions.</li></ul></li></ul><p style=\"text-align: start;\"><strong>Quality Attribute 5: Security and Privacy</strong></p><ul style=\"text-align: start;\"><li><strong>Definition:</strong> Security and privacy involve safeguarding sensitive information, ensuring data integrity, and protecting the privacy of members and staff.</li><li><strong>Priority:</strong> High</li><li><strong>Criteria:</strong><ul><li>Robust authentication and authorization mechanisms to control access.</li><li>Encryption of sensitive data during transmission and storage.</li><li>Compliance with data protection regulations and privacy standards.</li></ul></li></ul><p style=\"text-align: start;\"><strong>Benefits and Significance:</strong></p><ul style=\"text-align: start;\"><li><strong>Enhanced User Satisfaction:</strong> Prioritizing urgency, reliability, and performance contributes to a positive user experience.</li><li><strong>Operational Continuity:</strong> Maintaining a high level of quality ensures uninterrupted business operations.</li><li><strong>Adaptability:</strong> The system can efficiently handle varying workloads and operational scenarios.</li><li><strong>Trust and Compliance:</strong> Security and privacy measures build trust and ensure compliance with regulatory requirements.</li></ul>",
+          "helpRef": "9.4.14",
+          "type": "SEC",
+          "history": [
+            {
+              "attributesChanged": {
+                "text": null
+              },
+              "changedBy": {
+                "company": "",
+                "email": "omar.elnily@ejust.edu.eg",
+                "name": "Omar Elnily"
+              },
+              "changedOn": "2023-12-31T13:10:08.074Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "19",
+      "guid": "2122d252-01ad-4e34-a94c-90536f23d5df",
+      "heading": "User requirements",
+      "text": "<ol style=\"text-align: start;\"><li><p><strong>User Inputs/Selections:</strong></p><ul><li><em>Description:</em> Users (both staff and members) should be able to easily input and select relevant information through the system.</li><li><em>Examples:</em><ul><li>Member check-in using RFID card or mobile app.</li><li>Staff scheduling and class creation through an intuitive interface.</li><li>Selection of workout plans or classes during online registration.</li></ul></li></ul></li><li><p><strong>Information Observations:</strong></p><ul><li><em>Description:</em> Users should have access to pertinent information, allowing them to make informed decisions and observations.</li><li><em>Examples:</em><ul><li>Real-time equipment availability status for members.</li><li>Member attendance and engagement reports for staff.</li><li>Notifications for class cancellations or schedule changes.</li></ul></li></ul></li><li><p><strong>System Outputs:</strong></p><ul><li><em>Description:</em> Users should receive clear and timely outputs from the system based on their inputs and selections.</li><li><em>Examples:</em><ul><li>Automated invoices and receipts for members after successful payment.</li><li>Class confirmations and reminders sent to members.</li><li>Reports on gym performance and revenue for management.</li></ul></li></ul></li><li><p><strong>Conditions and Constraints:</strong></p><ul><li><em>Description:</em> Specify any conditions or constraints that govern user interaction with the system.</li><li><em>Examples:</em><ul><li>Members must fulfill payment obligations before accessing premium services.</li><li>Staff access levels and permissions based on roles (e.g., admin, trainer, front desk).</li></ul></li></ul></li><li><p><strong>Usability Criteria:</strong></p><ul><li><em>Description:</em> Define measurable effectiveness, efficiency, and satisfaction criteria for the system's usability.</li><li><em>Examples:</em><ul><li>Effectiveness: Members can complete the check-in process in less than 30 seconds.</li><li>Efficiency: Staff can create a new class schedule within 10 minutes.</li><li>Satisfaction: Users rate the mobile app experience at a minimum of 4 out of 5.</li></ul></li></ul></li><li><p><strong>Context of Use:</strong></p><ul><li><em>Description:</em> Clearly specify the context in which the system will be used to identify the conditions under which the requirements apply.</li><li><em>Examples:</em><ul><li>Members accessing the system via the mobile app while on-site or remotely.</li><li>Staff using the system for administrative tasks within the gym premises.</li></ul></li></ul></li><li><p><strong>Operational Scenarios:</strong></p><ul><li><em>Description:</em> Describe detailed operational scenarios that illustrate how users interact with the system to meet their requirements.</li><li><em>Examples:</em><ul><li>Member onboarding scenario, detailing the registration process.</li><li>Trainer scenario, illustrating how they create and manage client workout plans.</li></ul></li></ul></li><li><p><strong>Accessibility Requirements:</strong></p><ul><li><em>Description:</em> Specify any requirements related to system accessibility to ensure inclusivity.</li><li><em>Examples:</em><ul><li>The system interface should comply with accessibility standards (e.g., WCAG) for users with disabilities.</li><li>Provide alternative methods for interaction, such as voice commands.</li></ul></li></ul></li></ol>",
+      "helpRef": "9.4.15",
+      "type": "SEC",
+      "history": [
+        {
+          "attributesChanged": {
+            "text": null
+          },
+          "changedBy": {
+            "company": "",
+            "email": "omar.elnily@ejust.edu.eg",
+            "name": "Omar Elnily"
+          },
+          "changedOn": "2023-12-31T14:11:00.478Z"
+        }
+      ]
+    },
+    {
+      "id": "20",
+      "guid": "504f6924-7552-4dc0-b9b5-371854dd8872",
+      "heading": "Detailed life-cycle concepts of proposed system",
+      "type": "SEC",
+      "children": [
+        {
+          "id": "21",
+          "guid": "e9b1b59f-7957-4e50-a078-5d9fb1024496",
+          "heading": "Operational concept",
+          "text": "<p style=\"text-align: start;\"><strong>System Overview:</strong>The Gym Management System serves as a comprehensive platform designed to streamline and enhance the overall operation of a fitness center. It encompasses a range of functionalities to support administrators, staff, fitness instructors, and members, fostering efficient management and an optimal member experience.</p><p style=\"text-align: start;\"><strong>Key User Roles:</strong></p><ol style=\"text-align: start;\"><li><p><strong>System Administrator:</strong></p><ul><li><em>Responsibilities:</em> Configuration, maintenance, and overall management of the system.</li><li><em>Interactions:</em> System setup, user management, and monitoring system health.</li></ul></li><li><p><strong>Front Desk Staff:</strong></p><ul><li><em>Responsibilities:</em> Member check-ins, inquiries, and general assistance.</li><li><em>Interactions:</em> Member check-ins, appointment scheduling, and communication through the system.</li></ul></li><li><p><strong>Fitness Instructors:</strong></p><ul><li><em>Responsibilities:</em> Leading fitness classes, managing schedules, and tracking member progress.</li><li><em>Interactions:</em> Accessing class schedules, marking attendance, and utilizing member feedback tools.</li></ul></li><li><p><strong>Members:</strong></p><ul><li><em>Responsibilities:</em> Accessing gym facilities, attending classes, and managing personal profiles.</li><li><em>Interactions:</em> Checking in, scheduling classes, and receiving notifications through the member portal.</li></ul></li></ol><p style=\"text-align: start;\"><strong>Core System Functionalities:</strong></p><ol style=\"text-align: start;\"><li><p><strong>Member Management:</strong></p><ul><li><em>Description:</em> Centralized member profiles with details such as membership status, attendance history, and personal preferences.</li><li><em>Operation:</em> Front desk staff and administrators manage member data, track attendance, and provide personalized services.</li></ul></li><li><p><strong>Class Scheduling:</strong></p><ul><li><em>Description:</em> Automated scheduling of fitness classes, allowing members to view, book, and cancel class reservations.</li><li><em>Operation:</em> Fitness instructors create schedules, members book classes, and the system sends notifications and reminders.</li></ul></li><li><p><strong>Equipment Management:</strong></p><ul><li><em>Description:</em> Inventory and tracking of gym equipment, including maintenance schedules.</li><li><em>Operation:</em> System administrators monitor equipment status, schedule maintenance, and track usage.</li></ul></li><li><p><strong>Communication Hub:</strong></p><ul><li><em>Description:</em> Integrated communication tools for staff and members, including announcements and notifications.</li><li><em>Operation:</em> Automated notifications, announcements, and two-way communication between staff and members.</li></ul></li><li><p><strong>Financial Management:</strong></p><ul><li><em>Description:</em> Billing, invoicing, and financial reporting related to memberships and services.</li><li><em>Operation:</em> Front desk staff and administrators manage member payments, generate invoices, and monitor financial data.</li></ul></li></ol><p style=\"text-align: start;\"><strong>Operational Flow:</strong></p><ol style=\"text-align: start;\"><li><p><em>Member Check-in:</em></p><ul><li>Members check in using a digital key card or mobile app, recording attendance and providing access to facilities.</li></ul></li><li><p><em>Class Participation:</em></p><ul><li>Members book classes through the system, receive reminders, and check in for scheduled classes.</li></ul></li><li><p><em>Equipment Usage:</em></p><ul><li>Staff monitor equipment availability, track usage, and schedule maintenance as needed.</li></ul></li><li><p><em>Communication:</em></p><ul><li>Announcements, promotions, and important information are communicated through the system to staff and members.</li></ul></li><li><p><em>Financial Transactions:</em></p><ul><li>Member payments, invoices, and financial reports are managed seamlessly within the system.</li></ul></li></ol><p style=\"text-align: start;\"><strong>Integration Points:</strong></p><ol style=\"text-align: start;\"><li><p><strong>Access Control Systems:</strong></p><ul><li>Integration with access control systems for member check-in and facility access.</li></ul></li><li><p><strong>Payment Gateways:</strong></p><ul><li>Integration with secure payment gateways for seamless financial transactions.</li></ul></li><li><p><strong>Communication APIs:</strong></p><ul><li>APIs for integrating with communication tools, ensuring effective and timely notifications.</li></ul></li></ol>",
+          "helpRef": "9.4.16",
+          "type": "SEC",
+          "history": [
+            {
+              "attributesChanged": {
+                "text": null
+              },
+              "changedBy": {
+                "company": "",
+                "email": "omar.elnily@ejust.edu.eg",
+                "name": "Omar Elnily"
+              },
+              "changedOn": "2023-12-31T13:49:58.857Z"
+            }
+          ]
+        },
+        {
+          "id": "22",
+          "guid": "3fe31fa9-6648-400c-98fd-3049d57ba3af",
+          "heading": "Operational scenarios",
+          "text": "<p style=\"text-align: start;\"><em>Scenario Overview:</em>The following high-level operational scenario illustrates a typical day at a fitness center utilizing the Gym Management System. This scenario provides an overview of key interactions, processes, and system functionalities across various user roles.</p><p style=\"text-align: start;\"><strong>Morning Rush:</strong></p><ol style=\"text-align: start;\"><li><p><strong>Front Desk Staff:</strong></p><ul><li><em>Activity:</em> As the gym opens, front desk staff log in to the system.</li><li><em>System Interaction:</em> Access the dashboard to monitor real-time attendance, check-in members, and address inquiries.</li></ul></li><li><p><strong>Member Check-In:</strong></p><ul><li><em>Activity:</em> Members arrive and check in using their membership cards or mobile app.</li><li><em>System Interaction:</em> The system records attendance, updates member profiles, and provides access to the facility.</li></ul></li><li><p><strong>Class Preparation:</strong></p><ul><li><em>Activity:</em> Fitness instructors access the system to review their class schedules.</li><li><em>System Interaction:</em> Confirm class details, check registered members, and set up equipment for upcoming classes.</li></ul></li></ol><p style=\"text-align: start;\"><strong>Midday Operations:</strong></p><ol style=\"text-align: start;\"><li><p><strong>Class Sessions:</strong></p><ul><li><em>Activity:</em> Scheduled fitness classes take place throughout the day.</li><li><em>System Interaction:</em> Members check in for classes using the system, and instructors mark attendance through the app.</li></ul></li><li><p><strong>Equipment Usage:</strong></p><ul><li><em>Activity:</em> Members utilize gym equipment.</li><li><em>System Interaction:</em> Equipment usage is tracked in real-time, and maintenance alerts are generated when needed.</li></ul></li><li><p><strong>Member Engagement:</strong></p><ul><li><em>Activity:</em> Front desk staff engage with members, offering assistance and providing information.</li><li><em>System Interaction:</em> Access member profiles for personalized interactions, address inquiries, and promote upcoming classes or events.</li></ul></li></ol><p style=\"text-align: start;\"><strong>Afternoon and Evening Operations:</strong></p><ol style=\"text-align: start;\"><li><p><strong>Appointment Scheduling:</strong></p><ul><li><em>Activity:</em> Members schedule personal training sessions or appointments.</li><li><em>System Interaction:</em> Front desk staff use the system to manage appointments, ensuring availability of trainers and facilities.</li></ul></li><li><p><strong>Communication and Notifications:</strong></p><ul><li><em>Activity:</em> System sends notifications to members for upcoming classes, promotions, or facility updates.</li><li><em>System Interaction:</em> Use communication tools integrated into the system to send announcements and receive member feedback.</li></ul></li><li><p><strong>Financial Transactions:</strong></p><ul><li><em>Activity:</em> Process membership renewals, track payments, and generate invoices.</li><li><em>System Interaction:</em> Front desk staff and administrators use the financial module to manage transactions and generate reports.</li></ul></li></ol><p style=\"text-align: start;\"><strong>Closing Operations:</strong></p><ol style=\"text-align: start;\"><li><p><strong>Facility Closing:</strong></p><ul><li><em>Activity:</em> Prepare for facility closure, ensuring all members have checked out.</li><li><em>System Interaction:</em> System generates closing reports, including attendance summaries and equipment usage data.</li></ul></li><li><p><strong>System Maintenance:</strong></p><ul><li><em>Activity:</em> System administrators perform routine maintenance tasks.</li><li><em>System Interaction:</em> Update system configurations, apply software updates, and monitor system health.</li></ul></li></ol><p style=\"text-align: start;\"><strong>Integration Points:</strong></p><ol style=\"text-align: start;\"><li><p><strong>Access Control Integration:</strong></p><ul><li><em>Functionality:</em> Member check-ins and facility access.</li><li><em>System Interaction:</em> Integration with access control systems to manage member access.</li></ul></li><li><p><strong>Communication API Integration:</strong></p><ul><li><em>Functionality:</em> Member notifications and announcements.</li><li><em>System Interaction:</em> Use communication APIs to send automated notifications and receive member feedback.</li></ul></li><li><p><strong>Payment Gateway Integration:</strong></p><ul><li><em>Functionality:</em> Financial transactions and membership renewals.</li><li><em>System Interaction:</em> Integration with secure payment gateways for seamless financial transactions.</li></ul></li></ol>",
+          "helpRef": "9.4.17",
+          "type": "SEC",
+          "history": [
+            {
+              "attributesChanged": {
+                "text": null
+              },
+              "changedBy": {
+                "company": "",
+                "email": "omar.elnily@ejust.edu.eg",
+                "name": "Omar Elnily"
+              },
+              "changedOn": "2023-12-31T13:50:17.434Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "23",
+      "guid": "5ba98b48-2ea7-4170-8d60-c03e299d10db",
+      "heading": "Other detailed concepts of proposed system",
+      "text": "<ol style=\"text-align: start;\"><li><p><strong>Membership Subscription Model:</strong></p><ul><li><em>Description:</em> Define the structure of membership plans, including pricing, duration, and services included. Specify any special promotions, discounts, or loyalty programs.</li></ul></li><li><p><strong>Attendance Tracking Mechanism:</strong></p><ul><li><em>Description:</em> Detail the mechanism for tracking member attendance, whether through biometric systems, RFID cards, or mobile applications. Consider integration with access control systems.</li></ul></li><li><p><strong>Health and Fitness Assessment Module:</strong></p><ul><li><em>Description:</em> Outline the features and assessments included in the health and fitness module, such as body composition analysis, fitness tests, and personalized workout recommendations.</li></ul></li><li><p><strong>Equipment Management System:</strong></p><ul><li><em>Description:</em> Define how the system will manage gym equipment, including inventory tracking, maintenance schedules, and real-time availability status.</li></ul></li><li><p><strong>Integration with Wearable Devices:</strong></p><ul><li><em>Description:</em> Specify how the system will integrate with popular wearable fitness devices to capture and analyze user activity, sleep patterns, and health metrics.</li></ul></li><li><p><strong>Nutrition Planning and Tracking:</strong></p><ul><li><em>Description:</em> Detail the features related to nutrition planning, including meal tracking, dietary recommendations, and integration with nutrition databases.</li></ul></li><li><p><strong>Mobile App Features:</strong></p><ul><li><em>Description:</em> Outline the features of the mobile application, including member access, class bookings, push notifications, and any additional functionalities enhancing member engagement.</li></ul></li><li><p><strong>Automated Billing and Invoicing:</strong></p><ul><li><em>Description:</em> Define the automated billing system, including billing cycles, payment gateways, and invoicing processes. Address any considerations for discounts, refunds, or late fees.</li></ul></li><li><p><strong>Data Analytics and Reporting:</strong></p><ul><li><em>Description:</em> Specify the analytics and reporting tools integrated into the system, providing insights into member engagement, equipment usage, class popularity, and financial performance.</li></ul></li><li><p><strong>User Feedback and Ratings:</strong></p><ul><li><em>Description:</em> Detail how members can provide feedback on classes, trainers, and overall gym experience. Consider incorporating a rating system to help improve service quality.</li></ul></li><li><p><strong>Virtual Fitness Classes:</strong></p><ul><li><em>Description:</em> If applicable, outline features related to virtual fitness classes, including live streaming, on-demand classes, and virtual participation tracking.</li></ul></li><li><p><strong>Emergency and Safety Features:</strong></p><ul><li><em>Description:</em> Specify any safety features, such as emergency alerts, evacuation plans, and automated communication systems in case of emergencies.</li></ul></li><li><p><strong>Scheduling and Appointment Booking:</strong></p><ul><li><em>Description:</em> Detail the scheduling features, including class schedules, trainer availability, and appointment booking for personalized training sessions.</li></ul></li><li><p><strong>Interactive Kiosk System:</strong></p><ul><li><em>Description:</em> If applicable, define features of an interactive kiosk system for self-service check-ins, information lookup, and membership inquiries.</li></ul></li><li><p><strong>Social Integration:</strong></p><ul><li><em>Description:</em> Specify how the system integrates with social media platforms, allowing members to share achievements, class attendance, and engage with the gym community.</li></ul></li></ol>",
+      "helpRef": "9.4.18",
+      "type": "SEC",
+      "history": [
+        {
+          "attributesChanged": {
+            "text": null
+          },
+          "changedBy": {
+            "company": "",
+            "email": "omar.elnily@ejust.edu.eg",
+            "name": "Omar Elnily"
+          },
+          "changedOn": "2023-12-31T14:00:03.072Z"
+        }
+      ]
+    },
+    {
+      "id": "24",
+      "guid": "706d555d-e59a-40f5-9b5d-b24544d8e492",
+      "heading": "Project constraints",
+      "text": "<p style=\"text-align: start;\"><em>1. Budgetary Constraints:</em></p><ul style=\"text-align: start;\"><li><strong>Description:</strong> The project must operate within the allocated budget, considering expenses related to software development, hardware infrastructure, licensing, and any other associated costs.</li><li><strong>Impact on Project:</strong> Limited financial resources may affect the scope, features, or development speed. Prioritization of essential features may be necessary.</li></ul><p style=\"text-align: start;\"><em>2. Time Constraints:</em></p><ul style=\"text-align: start;\"><li><strong>Description:</strong> The project must adhere to a predefined timeline for development, testing, and deployment. Time constraints may be influenced by business needs or external factors.</li><li><strong>Impact on Project:</strong> Strict timelines require efficient project management, agile development methodologies, and may impact the inclusion of certain features.</li></ul><p style=\"text-align: start;\"><em>3. Resource Constraints:</em></p><ul style=\"text-align: start;\"><li><strong>Description:</strong> Limited availability of skilled resources, both in terms of development teams and specialized domain knowledge related to fitness and wellness management.</li><li><strong>Impact on Project:</strong> Resource scarcity may affect project velocity, necessitating effective resource allocation, training, or collaboration with external experts.</li></ul><p style=\"text-align: start;\"><em>4. Integration Constraints:</em></p><ul style=\"text-align: start;\"><li><strong>Description:</strong> The system must integrate seamlessly with existing gym equipment, third-party software solutions, and possibly wearable devices or health tracking platforms.</li><li><strong>Impact on Project:</strong> Comprehensive testing and compatibility checks are essential. Potential delays may arise if there are challenges in interfacing with external systems.</li></ul><p style=\"text-align: start;\"><em>5. Regulatory Compliance Constraints:</em></p><ul style=\"text-align: start;\"><li><strong>Description:</strong> Adherence to legal and regulatory requirements in the fitness and health industry, including data protection laws, privacy regulations, and industry standards.</li><li><strong>Impact on Project:</strong> Development processes must incorporate necessary compliance measures, potentially affecting data handling, security, and user privacy features.</li></ul><p style=\"text-align: start;\"><em>6. Scalability Constraints:</em></p><ul style=\"text-align: start;\"><li><strong>Description:</strong> The system must be scalable to accommodate a growing number of users, expanding fitness facilities, and potential future features.</li><li><strong>Impact on Project:</strong> Architectural decisions must prioritize scalability, and thorough testing is required to ensure performance under increasing loads.</li></ul><p style=\"text-align: start;\"><em>7. User Accessibility Constraints:</em></p><ul style=\"text-align: start;\"><li><strong>Description:</strong> The system must be designed for accessibility, considering users with diverse needs, including those with disabilities.</li><li><strong>Impact on Project:</strong> User interface design, feature implementation, and testing must address accessibility standards to ensure inclusivity.</li></ul><p style=\"text-align: start;\"><em>8. Security Constraints:</em></p><ul style=\"text-align: start;\"><li><strong>Description:</strong> The gym management system must implement robust security measures to protect member data, financial transactions, and ensure system integrity.</li><li><strong>Impact on Project:</strong> Security features must be integrated into the system architecture, and rigorous testing is necessary to identify and address potential vulnerabilities.</li></ul><p style=\"text-align: start;\"><em>9. Technology Constraints:</em></p><ul style=\"text-align: start;\"><li><strong>Description:</strong> The use of specific technologies, programming languages, or frameworks may be mandated or restricted due to organizational policies or existing infrastructure.</li><li><strong>Impact on Project:</strong> Development teams must align with prescribed technologies, and potential adjustments may be required to meet compatibility requirements.</li></ul><p style=\"text-align: start;\"><em>10. User Training Constraints:</em></p><ul style=\"text-align: start;\"><li><strong>Description:</strong> The system must be designed for intuitive use, minimizing the need for extensive user training. However, constraints related to user familiarity with technology may exist.</li><li><strong>Impact on Project:</strong> User interface design and system documentation must prioritize user-friendliness, and additional training resources may be required for users with varying technical proficiency.</li></ul>",
+      "helpRef": "9.4.19",
+      "type": "SEC",
+      "history": [
+        {
+          "attributesChanged": {
+            "text": null
+          },
+          "changedBy": {
+            "company": "",
+            "email": "omar.elnily@ejust.edu.eg",
+            "name": "Omar Elnily"
+          },
+          "changedOn": "2023-12-31T13:48:39.606Z"
+        }
+      ]
+    },
+    {
+      "id": "25",
+      "guid": "58c8d9fb-bad3-46b4-aeab-dff8197e9d40",
+      "heading": "References",
+      "text": "<ol style=\"text-align: start;\"><li><p><strong>Gym Management System Requirements Specification Document, Version 1.0</strong></p><ul><li><em>Author:</em> [Your Company Name]</li><li><em>Date:</em> [Date of Publication]</li><li><em>Description:</em> This document outlines the detailed requirements and specifications for the Gym Management System, serving as a comprehensive reference for development teams, stakeholders, and quality assurance.</li></ul></li><li><p><strong>Fitness Industry Standards and Regulations Guide</strong></p><ul><li><em>Author:</em> [Industry Regulatory Authority]</li><li><em>Date:</em> [Latest Revision Date]</li><li><em>Description:</em> A reference document detailing the regulatory standards, compliance requirements, and best practices within the fitness and wellness industry. This guide serves as a foundation for ensuring legal and ethical considerations in system development.</li></ul></li><li><p><strong>Gym Management System Architecture and Design Guidelines</strong></p><ul><li><em>Author:</em> [Lead System Architect]</li><li><em>Date:</em> [Date of Document]</li><li><em>Description:</em> This document provides insights into the architectural decisions, design principles, and system interfaces for the Gym Management System. It serves as a technical reference for developers, architects, and system integrators.</li></ul></li><li><p><strong>User Interface Style Guide for Gym Management System</strong></p><ul><li><em>Author:</em> [UI/UX Design Team]</li><li><em>Date:</em> [Date of Style Guide]</li><li><em>Description:</em> A comprehensive style guide outlining the design principles, branding guidelines, and user interface specifications for the Gym Management System. This reference ensures consistency and a cohesive user experience.</li></ul></li><li><p><strong>Gym Management System Testing and Quality Assurance Plan</strong></p><ul><li><em>Author:</em> [Quality Assurance Team Lead]</li><li><em>Date:</em> [Date of QA Plan]</li><li><em>Description:</em> This document outlines the testing strategies, test cases, and quality assurance procedures for the Gym Management System. It serves as a reference for the testing team to ensure the system's reliability and functionality.</li></ul></li><li><p><strong>Security and Compliance Framework for Gym Management System</strong></p><ul><li><em>Author:</em> [Chief Information Security Officer]</li><li><em>Date:</em> [Date of Security Framework]</li><li><em>Description:</em> A comprehensive framework detailing the security measures, encryption standards, and compliance protocols for the Gym Management System. This document is a critical reference for ensuring the protection of sensitive data and system integrity.</li></ul></li><li><p><strong>Training Materials for Gym Management System Users</strong></p><ul><li><em>Author:</em> [Training and Support Team]</li><li><em>Date:</em> [Date of Training Materials]</li><li><em>Description:</em> Reference materials such as user manuals, video tutorials, and FAQs designed to assist gym staff and administrators in effectively using the Gym Management System.</li></ul></li><li><p><strong>Technology Stack Documentation for Gym Management System</strong></p><ul><li><em>Author:</em> [Chief Technology Officer]</li><li><em>Date:</em> [Date of Technology Stack Documentation]</li><li><em>Description:</em> A detailed document outlining the technology stack, programming languages, frameworks, and third-party libraries used in the development of the Gym Management System. This reference aids developers and system administrators in maintaining and upgrading the system.</li></ul></li></ol>",
+      "helpRef": "9.2.4",
+      "type": "SEC",
+      "history": [
+        {
+          "attributesChanged": {
+            "text": null
+          },
+          "changedBy": {
+            "company": "",
+            "email": "omar.elnily@ejust.edu.eg",
+            "name": "Omar Elnily"
+          },
+          "changedOn": "2023-12-31T13:48:15.902Z"
+        }
+      ]
+    }
+  ],
+  "attributes": {
+    "difficulty": {
+      "name": "Difficulty",
+      "type": "enum",
+      "values": [
+        {
+          "key": "E",
+          "label": "Easy"
+        },
+        {
+          "key": "N",
+          "label": "Nominal"
+        },
+        {
+          "key": "D",
+          "label": "Difficult"
+        }
+      ]
+    },
+    "owner": {
+      "name": "Owner",
+      "type": "string"
+    },
+    "priority": {
+      "name": "Priority",
+      "type": "enum",
+      "values": [
+        {
+          "key": "L",
+          "label": "Low"
+        },
+        {
+          "key": "M",
+          "label": "Medium"
+        },
+        {
+          "key": "H",
+          "label": "High"
+        }
+      ]
+    },
+    "rationale": {
+      "name": "Rationale",
+      "type": "xhtml"
+    },
+    "source": {
+      "name": "Source",
+      "type": "string"
+    },
+    "status": {
+      "name": "Status",
+      "type": "enum",
+      "values": [
+        {
+          "key": "Draft"
+        },
+        {
+          "key": "Ready"
+        },
+        {
+          "key": "Reviewed"
+        },
+        {
+          "key": "Approved"
+        },
+        {
+          "key": "Released"
+        }
+      ]
+    },
+    "type": {
+      "name": "Type",
+      "type": "enum",
+      "values": [
+        {
+          "key": "FR",
+          "label": "Functional Requirement"
+        },
+        {
+          "key": "INT",
+          "label": "Interface Requirement"
+        },
+        {
+          "key": "NFR",
+          "label": "Non-func. Requirement"
+        },
+        {
+          "key": "SEC",
+          "label": "Section"
+        },
+        {
+          "key": "INF",
+          "label": "Information"
+        }
+      ]
+    }
+  },
+  "templateColumns": {
+  },
+  "views": {
+    "Primary": {
+      "columns": [
+        {
+          "columnId": "id",
+          "width": 77
+        },
+        {
+          "columnId": "type",
+          "width": 97
+        },
+        {
+          "columnId": "description",
+          "width": 372
+        },
+        {
+          "columnId": "source",
+          "width": 106
+        },
+        {
+          "columnId": "rationale",
+          "width": 150
+        },
+        {
+          "columnId": "priority",
+          "width": 96
+        },
+        {
+          "columnId": "status",
+          "width": 86
+        }
+      ],
+      "default": true
+    }
+  },
+  "metadata": {
+    "format": "2.17"
+  }
+}
